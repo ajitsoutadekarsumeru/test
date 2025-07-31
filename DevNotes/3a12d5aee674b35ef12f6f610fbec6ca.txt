@@ -1,0 +1,202 @@
+================================================================================================================
+Feature: Agency.AddAgency
+================================================================================================================
+
+
+		Name:   AddAgencyDto
+	FileName:   AddAgencyDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   AgencyController_Constructor
+	FileName:   AgencyController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AgencyController_AddAgency
+	FileName:   AgencyController_AddAgency
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAgencyService
+	FileName:   ProcessAgencyService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Agency
+	FileName:   Agency
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Agency_SeedData
+	FileName:   Agency_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   AgencyDto
+	FileName:   AgencyDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyDtoWithId
+	FileName:   AgencyDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyMapperConfiguration
+	FileName:   AgencyMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AddAgencyMapperConfiguration
+	FileName:   AddAgencyMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AddAgency
+	FileName:   AddAgency
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for add here (if any)
+
+
+
+		Name:   AddAgencyDataPacket
+	FileName:   AddAgencyDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   AddAgencySequence
+	FileName:   AddAgencySequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CheckDuplicateMobile
+	FileName:   CheckDuplicateMobile
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   CheckDuplicateAgency
+	FileName:   CheckDuplicateAgency
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   CheckDuplicateEmail
+	FileName:   CheckDuplicateEmail
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessAgencyService_AddAgency
+	FileName:   ProcessAgencyService_AddAgency
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAgencyService_AddAgency_Cmd
+	FileName:   ProcessAgencyService_AddAgency_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   AddAgencyCommand
+	FileName:   AddAgencyCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   AddAgencyPostBusDataPacket
+	FileName:   AddAgencyPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   AgencyCreatedEvent
+	FileName:   AgencyCreatedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   AddAgencyPlugin_PS
+	FileName:   AddAgencyPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   AddAgencyPlugin
+	FileName:   AddAgencyPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   AddAgencyPostBusSequence
+	FileName:   AddAgencyPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   AddAgencyCommandHandler
+	FileName:   AddAgencyCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollectHandlers.Default.Nsb
+
+
+		Name:   AgencyCreatedEvent
+	FileName:   AgencyCreatedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendEmailOnAgencyCreated
+	FileName:   SendEmailOnAgencyCreated
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendEmailOnAgencyCreated
+	FileName:   ISendEmailOnAgencyCreated
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   AgencyCreatedEvent
+	FileName:   AgencyCreatedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendSMSOnAgencyCreated
+	FileName:   SendSMSOnAgencyCreated
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendSMSOnAgencyCreated
+	FileName:   ISendSMSOnAgencyCreated
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   SendEmailOnAgencyCreatedBusGammaSubscriber
+	FileName:   SendEmailOnAgencyCreatedBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   SendSMSOnAgencyCreatedBusGammaSubscriber
+	FileName:   SendSMSOnAgencyCreatedBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+

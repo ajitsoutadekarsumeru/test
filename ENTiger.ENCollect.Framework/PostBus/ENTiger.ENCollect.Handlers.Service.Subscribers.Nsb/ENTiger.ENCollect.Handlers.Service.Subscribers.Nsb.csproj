@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Settlement\**" />
+    <EmbeddedResource Remove="Settlement\**" />
+    <None Remove="Settlement\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sumeru.Flex.ServiceBus.Nsb" Version="9.2.0-Dev-Build134" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs\ENTiger.ENCollect.DTOs.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.CommonLib\ENTiger.ENCollect.CommonLib.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels\ENTiger.ENCollect.DomainModels.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages\ENTiger.ENCollect.Messages.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.SharedEvents\ENTiger.ENCollect.SharedEvents.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers\ENTiger.ENCollect.Mappers.csproj" />
+    <ProjectReference Include="..\..\Bridge\ENTiger.ENCollect.CoreBridge\ENTiger.ENCollect.CoreBridge.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Application\Infrastructure\Bus\ENTiger.ENCollect.Nsb\ENTiger.ENCollect.Nsb.csproj" />
+    <ProjectReference Include="..\ENTiger.ENCollect.Handlers.Common.Nsb\ENTiger.ENCollect.Handlers.Common.Nsb.csproj" />
+    <ProjectReference Include="..\ENTiger.ENCollect.SubscriberInterfaces\ENTiger.ENCollect.SubscriberInterfaces.csproj" />
+  </ItemGroup>
+
+</Project>

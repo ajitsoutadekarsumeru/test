@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Cronos" Version="0.9.0" />
+		<PackageReference Include="Sumeru.Flex.Core" Version="9.0.0-Dev-Build134" />
+		<PackageReference Include="Sumeru.Flex.Hosting.DotnetCore" Version="9.0.0-Dev-Build134" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\PreBus\ENTiger.ENCollect.PreBus\ENTiger.ENCollect.PreBus.csproj" />
+	</ItemGroup>
+
+	
+
+</Project>

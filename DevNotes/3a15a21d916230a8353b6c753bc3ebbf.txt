@@ -1,0 +1,632 @@
+================================================================================================================
+Feature: Accounts.UpdateLoanAccountFlag
+================================================================================================================
+
+
+		Name:   UpdateLoanAccountFlagDto
+	FileName:   UpdateLoanAccountFlagDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_UpdateLoanAccountFlag
+	FileName:   AccountsController_UpdateLoanAccountFlag
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   LoanAccountFlag
+	FileName:   LoanAccountFlag
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountFlag_SeedData
+	FileName:   LoanAccountFlag_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   LoanAccountFlagDto
+	FileName:   LoanAccountFlagDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountFlagDtoWithId
+	FileName:   LoanAccountFlagDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountFlagMapperConfiguration
+	FileName:   LoanAccountFlagMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   UpdateLoanAccountFlagMapperConfiguration
+	FileName:   UpdateLoanAccountFlagMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   UpdateLoanAccountFlag
+	FileName:   UpdateLoanAccountFlag
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for modify here (if any)
+
+
+
+		Name:   UpdateLoanAccountFlagDataPacket
+	FileName:   UpdateLoanAccountFlagDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateLoanAccountFlagSequence
+	FileName:   UpdateLoanAccountFlagSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ValidateGeneral
+	FileName:   ValidateGeneral
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessAccountsService_UpdateLoanAccountFlag
+	FileName:   ProcessAccountsService_UpdateLoanAccountFlag
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAccountsService_UpdateLoanAccountFlag_Cmd
+	FileName:   ProcessAccountsService_UpdateLoanAccountFlag_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateLoanAccountFlagCommand
+	FileName:   UpdateLoanAccountFlagCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   UpdateLoanAccountFlagPostBusDataPacket
+	FileName:   UpdateLoanAccountFlagPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   FlagUpdated
+	FileName:   FlagUpdated
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateLoanAccountFlagPlugin_PS
+	FileName:   UpdateLoanAccountFlagPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   FlagUpdationFailed
+	FileName:   FlagUpdationFailed
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateLoanAccountFlagPlugin_PS
+	FileName:   UpdateLoanAccountFlagPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   UpdateLoanAccountFlagPlugin
+	FileName:   UpdateLoanAccountFlagPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   UpdateLoanAccountFlagPostBusSequence
+	FileName:   UpdateLoanAccountFlagPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   UpdateLoanAccountFlagCommandHandler
+	FileName:   UpdateLoanAccountFlagCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+
+================================================================================================================
+Feature: Accounts.AddLoanAccountFlag
+================================================================================================================
+
+
+		Name:   AddLoanAccountFlagDto
+	FileName:   AddLoanAccountFlagDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_AddLoanAccountFlag
+	FileName:   AccountsController_AddLoanAccountFlag
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   LoanAccountFlag
+	FileName:   LoanAccountFlag
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountFlag_SeedData
+	FileName:   LoanAccountFlag_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   LoanAccountFlagDto
+	FileName:   LoanAccountFlagDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountFlagDtoWithId
+	FileName:   LoanAccountFlagDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountFlagMapperConfiguration
+	FileName:   LoanAccountFlagMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AddLoanAccountFlagMapperConfiguration
+	FileName:   AddLoanAccountFlagMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AddLoanAccountFlag
+	FileName:   AddLoanAccountFlag
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for add here (if any)
+
+
+
+		Name:   AddLoanAccountFlagDataPacket
+	FileName:   AddLoanAccountFlagDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   AddLoanAccountFlagSequence
+	FileName:   AddLoanAccountFlagSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ValidateGeneral
+	FileName:   ValidateGeneral
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessAccountsService_AddLoanAccountFlag
+	FileName:   ProcessAccountsService_AddLoanAccountFlag
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAccountsService_AddLoanAccountFlag_Cmd
+	FileName:   ProcessAccountsService_AddLoanAccountFlag_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   AddLoanAccountFlagCommand
+	FileName:   AddLoanAccountFlagCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   AddLoanAccountFlagPostBusDataPacket
+	FileName:   AddLoanAccountFlagPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   FlagAdditionFailed
+	FileName:   FlagAdditionFailed
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   AddLoanAccountFlagPlugin_PS
+	FileName:   AddLoanAccountFlagPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   FlagAdded
+	FileName:   FlagAdded
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   AddLoanAccountFlagPlugin_PS
+	FileName:   AddLoanAccountFlagPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   AddLoanAccountFlagPlugin
+	FileName:   AddLoanAccountFlagPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   AddLoanAccountFlagPostBusSequence
+	FileName:   AddLoanAccountFlagPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   AddLoanAccountFlagCommandHandler
+	FileName:   AddLoanAccountFlagCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+
+================================================================================================================
+Feature: Accounts.UpdateLoanAccountNote
+================================================================================================================
+
+
+		Name:   UpdateLoanAccountNoteDto
+	FileName:   UpdateLoanAccountNoteDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_UpdateLoanAccountNote
+	FileName:   AccountsController_UpdateLoanAccountNote
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   LoanAccountNote
+	FileName:   LoanAccountNote
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountNote_SeedData
+	FileName:   LoanAccountNote_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   LoanAccountNoteDto
+	FileName:   LoanAccountNoteDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountNoteDtoWithId
+	FileName:   LoanAccountNoteDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountNoteMapperConfiguration
+	FileName:   LoanAccountNoteMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   UpdateLoanAccountNoteMapperConfiguration
+	FileName:   UpdateLoanAccountNoteMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   UpdateLoanAccountNote
+	FileName:   UpdateLoanAccountNote
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for modify here (if any)
+
+
+
+		Name:   UpdateLoanAccountNoteDataPacket
+	FileName:   UpdateLoanAccountNoteDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateLoanAccountNoteSequence
+	FileName:   UpdateLoanAccountNoteSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ValidateGeneral
+	FileName:   ValidateGeneral
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessAccountsService_UpdateLoanAccountNote
+	FileName:   ProcessAccountsService_UpdateLoanAccountNote
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAccountsService_UpdateLoanAccountNote_Cmd
+	FileName:   ProcessAccountsService_UpdateLoanAccountNote_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateLoanAccountNoteCommand
+	FileName:   UpdateLoanAccountNoteCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   UpdateLoanAccountNotePostBusDataPacket
+	FileName:   UpdateLoanAccountNotePostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   NoteUpdationFailed
+	FileName:   NoteUpdationFailed
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateLoanAccountNotePlugin_PS
+	FileName:   UpdateLoanAccountNotePlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   NoteUpdated
+	FileName:   NoteUpdated
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateLoanAccountNotePlugin_PS
+	FileName:   UpdateLoanAccountNotePlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   UpdateLoanAccountNotePlugin
+	FileName:   UpdateLoanAccountNotePlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   UpdateLoanAccountNotePostBusSequence
+	FileName:   UpdateLoanAccountNotePostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   UpdateLoanAccountNoteCommandHandler
+	FileName:   UpdateLoanAccountNoteCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+
+================================================================================================================
+Feature: Accounts.AddLoanAccountNote
+================================================================================================================
+
+
+		Name:   AddLoanAccountNoteDto
+	FileName:   AddLoanAccountNoteDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_AddLoanAccountNote
+	FileName:   AccountsController_AddLoanAccountNote
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   LoanAccountNote
+	FileName:   LoanAccountNote
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountNote_SeedData
+	FileName:   LoanAccountNote_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   LoanAccountNoteDto
+	FileName:   LoanAccountNoteDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountNoteDtoWithId
+	FileName:   LoanAccountNoteDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountNoteMapperConfiguration
+	FileName:   LoanAccountNoteMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AddLoanAccountNoteMapperConfiguration
+	FileName:   AddLoanAccountNoteMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AddLoanAccountNote
+	FileName:   AddLoanAccountNote
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for add here (if any)
+
+
+
+		Name:   AddLoanAccountNoteDataPacket
+	FileName:   AddLoanAccountNoteDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   AddLoanAccountNoteSequence
+	FileName:   AddLoanAccountNoteSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ValidateGeneral
+	FileName:   ValidateGeneral
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessAccountsService_AddLoanAccountNote
+	FileName:   ProcessAccountsService_AddLoanAccountNote
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAccountsService_AddLoanAccountNote_Cmd
+	FileName:   ProcessAccountsService_AddLoanAccountNote_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   AddLoanAccountNoteCommand
+	FileName:   AddLoanAccountNoteCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   AddLoanAccountNotePostBusDataPacket
+	FileName:   AddLoanAccountNotePostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   NoteAdditionFailed
+	FileName:   NoteAdditionFailed
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   AddLoanAccountNotePlugin_PS
+	FileName:   AddLoanAccountNotePlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   NoteAdded
+	FileName:   NoteAdded
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   AddLoanAccountNotePlugin_PS
+	FileName:   AddLoanAccountNotePlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   AddLoanAccountNotePlugin
+	FileName:   AddLoanAccountNotePlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   AddLoanAccountNotePostBusSequence
+	FileName:   AddLoanAccountNotePostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   AddLoanAccountNoteCommandHandler
+	FileName:   AddLoanAccountNoteCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+

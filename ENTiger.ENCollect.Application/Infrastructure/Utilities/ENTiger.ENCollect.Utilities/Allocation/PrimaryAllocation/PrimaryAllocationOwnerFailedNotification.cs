@@ -1,0 +1,29 @@
+﻿using Microsoft.Extensions.Options;
+using Sumeru.Flex;
+
+namespace ENTiger.ENCollect
+{
+    public class PrimaryAllocationOwnerFailedNotification : IMessageTemplate, IFlexUtilityService
+    {
+        public virtual string EmailSubject { get; set; } = string.Empty;
+        public virtual string EmailMessage { get; set; } = string.Empty;
+        public virtual string SMSMessage { get; set; } = string.Empty;
+        private readonly NotificationSettings _notificationSettings;
+        public PrimaryAllocationOwnerFailedNotification(IOptions<NotificationSettings> notificationSettings)
+        {
+            _notificationSettings = notificationSettings.Value;
+        }
+        public virtual void ConstructData(string WorkRequestId)
+        {
+            string Signature = _notificationSettings.EmailSignature;
+
+            EmailSubject = "Allocation Owner Upload Rejected-" + WorkRequestId;
+            EmailMessage = "Dear User, <br><br>"
+            + "Your Allocation Owner file having Transaction Id number " + WorkRequestId + " has been rejected due to incorrect headers in the file or the file format being incorrect.<br><br>"
+            + "Note the correct headers should be : AccountNo & AllocationOwnerCode & AllocationExpiryDate without any double quotes or spaces.<br>"
+            + "Regards <br>"
+            + Signature + "<br>"
+            + "(This is a system generated email kindly do not reply)<br>";
+        }
+    }
+}

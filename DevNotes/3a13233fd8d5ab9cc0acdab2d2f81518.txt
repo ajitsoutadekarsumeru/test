@@ -1,0 +1,729 @@
+================================================================================================================
+Feature: Departments.GetDepartmentTypes
+================================================================================================================
+
+
+		Name:   GetDepartmentTypesDto
+	FileName:   GetDepartmentTypesDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   DepartmentsController_Constructor
+	FileName:   DepartmentsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   DepartmentsController_GetDepartmentTypes
+	FileName:   DepartmentsController_GetDepartmentTypes
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessDepartmentsService
+	FileName:   ProcessDepartmentsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   DepartmentType
+	FileName:   DepartmentType
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentType_SeedData
+	FileName:   DepartmentType_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DepartmentTypeDto
+	FileName:   DepartmentTypeDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentTypeDtoWithId
+	FileName:   DepartmentTypeDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentTypeMapperConfiguration
+	FileName:   DepartmentTypeMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDepartmentTypesMapperConfiguration
+	FileName:   GetDepartmentTypesMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDepartmentTypes
+	FileName:   GetDepartmentTypes
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessDepartmentsService_GetDepartmentTypes
+	FileName:   ProcessDepartmentsService_GetDepartmentTypes
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Designations.SearchDesignation
+================================================================================================================
+
+
+		Name:   SearchDesignationDto
+	FileName:   SearchDesignationDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   DesignationsController_Constructor
+	FileName:   DesignationsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   DesignationsController_SearchDesignation
+	FileName:   DesignationsController_SearchDesignation
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessDesignationsService
+	FileName:   ProcessDesignationsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Designation
+	FileName:   Designation
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Designation_SeedData
+	FileName:   Designation_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DesignationDto
+	FileName:   DesignationDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationDtoWithId
+	FileName:   DesignationDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationMapperConfiguration
+	FileName:   DesignationMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchDesignationMapperConfiguration
+	FileName:   SearchDesignationMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchDesignation
+	FileName:   SearchDesignation
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessDesignationsService_SearchDesignation
+	FileName:   ProcessDesignationsService_SearchDesignation
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Designations.GetDesignationTypes
+================================================================================================================
+
+
+		Name:   GetDesignationTypesDto
+	FileName:   GetDesignationTypesDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   DesignationsController_Constructor
+	FileName:   DesignationsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   DesignationsController_GetDesignationTypes
+	FileName:   DesignationsController_GetDesignationTypes
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessDesignationsService
+	FileName:   ProcessDesignationsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   DesignationType
+	FileName:   DesignationType
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationType_SeedData
+	FileName:   DesignationType_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DesignationTypeDto
+	FileName:   DesignationTypeDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationTypeDtoWithId
+	FileName:   DesignationTypeDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationTypeMapperConfiguration
+	FileName:   DesignationTypeMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDesignationTypesMapperConfiguration
+	FileName:   GetDesignationTypesMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDesignationTypes
+	FileName:   GetDesignationTypes
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessDesignationsService_GetDesignationTypes
+	FileName:   ProcessDesignationsService_GetDesignationTypes
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Designations.GetDesignationsByLevel
+================================================================================================================
+
+
+		Name:   GetDesignationsByLevelDto
+	FileName:   GetDesignationsByLevelDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   DesignationsController_Constructor
+	FileName:   DesignationsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   DesignationsController_GetDesignationsByLevel
+	FileName:   DesignationsController_GetDesignationsByLevel
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessDesignationsService
+	FileName:   ProcessDesignationsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Designation
+	FileName:   Designation
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Designation_SeedData
+	FileName:   Designation_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DesignationDto
+	FileName:   DesignationDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationDtoWithId
+	FileName:   DesignationDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationMapperConfiguration
+	FileName:   DesignationMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDesignationsByLevelMapperConfiguration
+	FileName:   GetDesignationsByLevelMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDesignationsByLevel
+	FileName:   GetDesignationsByLevel
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessDesignationsService_GetDesignationsByLevel
+	FileName:   ProcessDesignationsService_GetDesignationsByLevel
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Departments.GetDepartmentById
+================================================================================================================
+
+
+		Name:   GetDepartmentByIdDto
+	FileName:   GetDepartmentByIdDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   DepartmentsController_Constructor
+	FileName:   DepartmentsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   DepartmentsController_GetDepartmentById
+	FileName:   DepartmentsController_GetDepartmentById
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessDepartmentsService
+	FileName:   ProcessDepartmentsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Department
+	FileName:   Department
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Department_SeedData
+	FileName:   Department_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DepartmentDto
+	FileName:   DepartmentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentDtoWithId
+	FileName:   DepartmentDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentMapperConfiguration
+	FileName:   DepartmentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDepartmentByIdMapperConfiguration
+	FileName:   GetDepartmentByIdMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDepartmentById
+	FileName:   GetDepartmentById
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessDepartmentsService_GetDepartmentById
+	FileName:   ProcessDepartmentsService_GetDepartmentById
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Designations.GetDesignations
+================================================================================================================
+
+
+		Name:   GetDesignationsDto
+	FileName:   GetDesignationsDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   DesignationsController_Constructor
+	FileName:   DesignationsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   DesignationsController_GetDesignations
+	FileName:   DesignationsController_GetDesignations
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessDesignationsService
+	FileName:   ProcessDesignationsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Designation
+	FileName:   Designation
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Designation_SeedData
+	FileName:   Designation_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DesignationDto
+	FileName:   DesignationDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationDtoWithId
+	FileName:   DesignationDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationMapperConfiguration
+	FileName:   DesignationMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDesignationsMapperConfiguration
+	FileName:   GetDesignationsMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDesignations
+	FileName:   GetDesignations
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessDesignationsService_GetDesignations
+	FileName:   ProcessDesignationsService_GetDesignations
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Designations.GetDesignationById
+================================================================================================================
+
+
+		Name:   GetDesignationByIdDto
+	FileName:   GetDesignationByIdDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   DesignationsController_Constructor
+	FileName:   DesignationsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   DesignationsController_GetDesignationById
+	FileName:   DesignationsController_GetDesignationById
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessDesignationsService
+	FileName:   ProcessDesignationsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Designation
+	FileName:   Designation
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Designation_SeedData
+	FileName:   Designation_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DesignationDto
+	FileName:   DesignationDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationDtoWithId
+	FileName:   DesignationDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationMapperConfiguration
+	FileName:   DesignationMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDesignationByIdMapperConfiguration
+	FileName:   GetDesignationByIdMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDesignationById
+	FileName:   GetDesignationById
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessDesignationsService_GetDesignationById
+	FileName:   ProcessDesignationsService_GetDesignationById
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Departments.GetDepartmentsList
+================================================================================================================
+
+
+		Name:   GetDepartmentsListDto
+	FileName:   GetDepartmentsListDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   DepartmentsController_Constructor
+	FileName:   DepartmentsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   DepartmentsController_GetDepartmentsList
+	FileName:   DepartmentsController_GetDepartmentsList
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessDepartmentsService
+	FileName:   ProcessDepartmentsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Department
+	FileName:   Department
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Department_SeedData
+	FileName:   Department_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DepartmentDto
+	FileName:   DepartmentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentDtoWithId
+	FileName:   DepartmentDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentMapperConfiguration
+	FileName:   DepartmentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDepartmentsListMapperConfiguration
+	FileName:   GetDepartmentsListMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetDepartmentsList
+	FileName:   GetDepartmentsList
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessDepartmentsService_GetDepartmentsList
+	FileName:   ProcessDepartmentsService_GetDepartmentsList
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Departments.SearchDepartment
+================================================================================================================
+
+
+		Name:   SearchDepartmentDto
+	FileName:   SearchDepartmentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   DepartmentsController_Constructor
+	FileName:   DepartmentsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   DepartmentsController_SearchDepartment
+	FileName:   DepartmentsController_SearchDepartment
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessDepartmentsService
+	FileName:   ProcessDepartmentsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Department
+	FileName:   Department
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Department_SeedData
+	FileName:   Department_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DepartmentDto
+	FileName:   DepartmentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentDtoWithId
+	FileName:   DepartmentDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentMapperConfiguration
+	FileName:   DepartmentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchDepartmentMapperConfiguration
+	FileName:   SearchDepartmentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchDepartment
+	FileName:   SearchDepartment
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessDepartmentsService_SearchDepartment
+	FileName:   ProcessDepartmentsService_SearchDepartment
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+

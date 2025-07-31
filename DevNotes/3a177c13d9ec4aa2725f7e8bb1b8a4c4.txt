@@ -1,0 +1,177 @@
+================================================================================================================
+Feature: GeoLocation.UpdateGeoLocations
+================================================================================================================
+
+
+		Name:   UpdateGeoLocationsDto
+	FileName:   UpdateGeoLocationsDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   UpdateGeoLocationsCronJob
+	FileName:   UpdateGeoLocationsCronJob
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.CronJobs
+
+
+		Name:   ProcessGeoLocationService
+	FileName:   ProcessGeoLocationService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateGeoLocationsDataPacket
+	FileName:   UpdateGeoLocationsDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateGeoLocationsSequence
+	FileName:   UpdateGeoLocationsSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessGeoLocationService_UpdateGeoLocations
+	FileName:   ProcessGeoLocationService_UpdateGeoLocations
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessGeoLocationService_UpdateGeoLocations_Cmd
+	FileName:   ProcessGeoLocationService_UpdateGeoLocations_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateGeoLocationsCommand
+	FileName:   UpdateGeoLocationsCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   UpdateGeoLocationsPostBusDataPacket
+	FileName:   UpdateGeoLocationsPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   CollectionGeoLocationUpdateRequested
+	FileName:   CollectionGeoLocationUpdateRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateGeoLocationsPlugin_PS
+	FileName:   UpdateGeoLocationsPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   FeedbackGeoLocationUpdateRequested
+	FileName:   FeedbackGeoLocationUpdateRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateGeoLocationsPlugin_PS
+	FileName:   UpdateGeoLocationsPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   UserGeoLocationUpdateRequested
+	FileName:   UserGeoLocationUpdateRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateGeoLocationsPlugin_PS
+	FileName:   UpdateGeoLocationsPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   UpdateGeoLocationsPlugin
+	FileName:   UpdateGeoLocationsPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   UpdateGeoLocationsPostBusSequence
+	FileName:   UpdateGeoLocationsPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   UpdateGeoLocationsCommandHandler
+	FileName:   UpdateGeoLocationsCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+
+		Name:   UserGeoLocationUpdateRequested
+	FileName:   UserGeoLocationUpdateRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateUserGeoLocation
+	FileName:   UpdateUserGeoLocation
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   IUpdateUserGeoLocation
+	FileName:   IUpdateUserGeoLocation
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   CollectionGeoLocationUpdateRequested
+	FileName:   CollectionGeoLocationUpdateRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateCollectionGeoLocation
+	FileName:   UpdateCollectionGeoLocation
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   IUpdateCollectionGeoLocation
+	FileName:   IUpdateCollectionGeoLocation
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   FeedbackGeoLocationUpdateRequested
+	FileName:   FeedbackGeoLocationUpdateRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateFeedbackGeoLocation
+	FileName:   UpdateFeedbackGeoLocation
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   IUpdateFeedbackGeoLocation
+	FileName:   IUpdateFeedbackGeoLocation
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   UpdateUserGeoLocationBusGammaSubscriber
+	FileName:   UpdateUserGeoLocationBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   UpdateCollectionGeoLocationBusGammaSubscriber
+	FileName:   UpdateCollectionGeoLocationBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   UpdateFeedbackGeoLocationBusGammaSubscriber
+	FileName:   UpdateFeedbackGeoLocationBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+

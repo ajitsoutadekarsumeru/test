@@ -1,0 +1,81 @@
+================================================================================================================
+Feature: Collections.SearchCollectionBulkUploadStatus
+================================================================================================================
+
+
+		Name:   SearchCollectionBulkUploadStatusDto
+	FileName:   SearchCollectionBulkUploadStatusDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   CollectionsController_Constructor
+	FileName:   CollectionsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   CollectionsController_SearchCollectionBulkUploadStatus
+	FileName:   CollectionsController_SearchCollectionBulkUploadStatus
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessCollectionsService
+	FileName:   ProcessCollectionsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CollectionUploadFile
+	FileName:   CollectionUploadFile
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CollectionUploadFile_SeedData
+	FileName:   CollectionUploadFile_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CollectionUploadFileDto
+	FileName:   CollectionUploadFileDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CollectionUploadFileDtoWithId
+	FileName:   CollectionUploadFileDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CollectionUploadFileMapperConfiguration
+	FileName:   CollectionUploadFileMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchCollectionBulkUploadStatusMapperConfiguration
+	FileName:   SearchCollectionBulkUploadStatusMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchCollectionBulkUploadStatus
+	FileName:   SearchCollectionBulkUploadStatus
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessCollectionsService_SearchCollectionBulkUploadStatus
+	FileName:   ProcessCollectionsService_SearchCollectionBulkUploadStatus
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+

@@ -1,0 +1,130 @@
+================================================================================================================
+Feature: ApplicationUsers.GetKey
+================================================================================================================
+
+
+		Name:   GetKeyDto
+	FileName:   GetKeyDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   ApplicationUsersController_Constructor
+	FileName:   ApplicationUsersController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ApplicationUsersController_GetKey
+	FileName:   ApplicationUsersController_GetKey
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessApplicationUsersService
+	FileName:   ProcessApplicationUsersService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UserLoginKeys
+	FileName:   UserLoginKeys
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   UserLoginKeys_SeedData
+	FileName:   UserLoginKeys_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   UserLoginKeysDto
+	FileName:   UserLoginKeysDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   UserLoginKeysDtoWithId
+	FileName:   UserLoginKeysDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   UserLoginKeysMapperConfiguration
+	FileName:   UserLoginKeysMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetKeyMapperConfiguration
+	FileName:   GetKeyMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetKey
+	FileName:   GetKey
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for add here (if any)
+
+
+
+		Name:   GetKeyDataPacket
+	FileName:   GetKeyDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   GetKeySequence
+	FileName:   GetKeySequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ValidateTenant
+	FileName:   ValidateTenant
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessApplicationUsersService_GetKey
+	FileName:   ProcessApplicationUsersService_GetKey
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessApplicationUsersService_GetKey_Cmd
+	FileName:   ProcessApplicationUsersService_GetKey_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   GetKeyCommand
+	FileName:   GetKeyCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   GetKeyPostBusDataPacket
+	FileName:   GetKeyPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   GetKeyPlugin
+	FileName:   GetKeyPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   GetKeyPostBusSequence
+	FileName:   GetKeyPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   GetKeyCommandHandler
+	FileName:   GetKeyCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollectHandlers.Default.Nsb
+
+

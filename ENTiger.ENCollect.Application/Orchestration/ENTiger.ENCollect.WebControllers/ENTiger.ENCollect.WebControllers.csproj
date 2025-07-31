@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sumeru.Flex.AspNet" Version="9.0.0-Dev-Build132" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ENCollect.APIManagement.RateLimiting\ENCollect.APIManagement.RateLimiting.csproj" />
+    <ProjectReference Include="..\..\PreBus\ENTiger.ENCollect.PreBus\ENTiger.ENCollect.PreBus.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.AspNetCoreBridge\ENTiger.ENCollect.AspNetCoreBridge.csproj" />
+    <ProjectReference Include="..\ENTiger.ENCollect.RESTClients\ENTiger.ENCollect.RESTClients.csproj" />
+  </ItemGroup>
+  
+</Project>

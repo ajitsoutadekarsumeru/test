@@ -1,0 +1,328 @@
+================================================================================================================
+Feature: Agency.ApproveAgencyWithDeferral
+================================================================================================================
+
+
+		Name:   ApproveAgencyWithDeferralDto
+	FileName:   ApproveAgencyWithDeferralDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   AgencyController_Constructor
+	FileName:   AgencyController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AgencyController_ApproveAgencyWithDeferral
+	FileName:   AgencyController_ApproveAgencyWithDeferral
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAgencyService
+	FileName:   ProcessAgencyService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Agency
+	FileName:   Agency
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Agency_SeedData
+	FileName:   Agency_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   AgencyDto
+	FileName:   AgencyDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyDtoWithId
+	FileName:   AgencyDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyMapperConfiguration
+	FileName:   AgencyMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   ApproveAgencyWithDeferralMapperConfiguration
+	FileName:   ApproveAgencyWithDeferralMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   ApproveAgencyWithDeferral
+	FileName:   ApproveAgencyWithDeferral
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for modify here (if any)
+
+
+
+		Name:   AgencyScopeOfWork
+	FileName:   AgencyScopeOfWork
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyScopeOfWork_SeedData
+	FileName:   AgencyScopeOfWork_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   AgencyScopeOfWorkDto
+	FileName:   AgencyScopeOfWorkDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyScopeOfWorkDtoWithId
+	FileName:   AgencyScopeOfWorkDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyScopeOfWorkMapperConfiguration
+	FileName:   AgencyScopeOfWorkMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AgencyPlaceOfWork
+	FileName:   AgencyPlaceOfWork
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyPlaceOfWork_SeedData
+	FileName:   AgencyPlaceOfWork_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   AgencyPlaceOfWorkDto
+	FileName:   AgencyPlaceOfWorkDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyPlaceOfWorkDtoWithId
+	FileName:   AgencyPlaceOfWorkDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyPlaceOfWorkMapperConfiguration
+	FileName:   AgencyPlaceOfWorkMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AgencyType
+	FileName:   AgencyType
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyType_SeedData
+	FileName:   AgencyType_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   AgencyTypeDto
+	FileName:   AgencyTypeDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyTypeDtoWithId
+	FileName:   AgencyTypeDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyTypeMapperConfiguration
+	FileName:   AgencyTypeMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AgencyCategory
+	FileName:   AgencyCategory
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyCategory_SeedData
+	FileName:   AgencyCategory_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   AgencyCategoryDto
+	FileName:   AgencyCategoryDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyCategoryDtoWithId
+	FileName:   AgencyCategoryDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   AgencyCategoryMapperConfiguration
+	FileName:   AgencyCategoryMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   ApproveAgencyWithDeferralDataPacket
+	FileName:   ApproveAgencyWithDeferralDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ApproveAgencyWithDeferralSequence
+	FileName:   ApproveAgencyWithDeferralSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ValidateUserAcessToApproveAgnecy
+	FileName:   ValidateUserAcessToApproveAgnecy
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessAgencyService_ApproveAgencyWithDeferral
+	FileName:   ProcessAgencyService_ApproveAgencyWithDeferral
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAgencyService_ApproveAgencyWithDeferral_Cmd
+	FileName:   ProcessAgencyService_ApproveAgencyWithDeferral_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ApproveAgencyWithDeferralCommand
+	FileName:   ApproveAgencyWithDeferralCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   ApproveAgencyWithDeferralPostBusDataPacket
+	FileName:   ApproveAgencyWithDeferralPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ApproveAgencyWithDefferal
+	FileName:   ApproveAgencyWithDefferal
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   ApproveAgencyWithDeferralPlugin_PS
+	FileName:   ApproveAgencyWithDeferralPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   ApproveAgencyWithDeferralPlugin
+	FileName:   ApproveAgencyWithDeferralPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   ApproveAgencyWithDeferralPostBusSequence
+	FileName:   ApproveAgencyWithDeferralPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ApproveAgencyWithDeferralCommandHandler
+	FileName:   ApproveAgencyWithDeferralCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollectHandlers.Default.Nsb
+
+
+		Name:   ApproveAgencyWithDefferal
+	FileName:   ApproveAgencyWithDefferal
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendEmailOnAgencyApprovedWithDefferal
+	FileName:   SendEmailOnAgencyApprovedWithDefferal
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendEmailOnAgencyApprovedWithDefferal
+	FileName:   ISendEmailOnAgencyApprovedWithDefferal
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   ApproveAgencyWithDefferal
+	FileName:   ApproveAgencyWithDefferal
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendSMSOnAgencyApprovedWithDefferal
+	FileName:   SendSMSOnAgencyApprovedWithDefferal
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendSMSOnAgencyApprovedWithDefferal
+	FileName:   ISendSMSOnAgencyApprovedWithDefferal
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   SendEmailOnAgencyApprovedWithDefferalBusGammaSubscriber
+	FileName:   SendEmailOnAgencyApprovedWithDefferalBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   SendSMSOnAgencyApprovedWithDefferalBusGammaSubscriber
+	FileName:   SendSMSOnAgencyApprovedWithDefferalBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+

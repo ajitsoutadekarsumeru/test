@@ -1,0 +1,377 @@
+================================================================================================================
+Feature: CompanyUsers.AddCompanyUser
+================================================================================================================
+
+
+		Name:   AddCompanyUserDto
+	FileName:   AddCompanyUserDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   CompanyUsersController_Constructor
+	FileName:   CompanyUsersController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   CompanyUsersController_AddCompanyUser
+	FileName:   CompanyUsersController_AddCompanyUser
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessCompanyUsersService
+	FileName:   ProcessCompanyUsersService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CompanyUser
+	FileName:   CompanyUser
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyUser_SeedData
+	FileName:   CompanyUser_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CompanyUserDto
+	FileName:   CompanyUserDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyUserDtoWithId
+	FileName:   CompanyUserDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyUserMapperConfiguration
+	FileName:   CompanyUserMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AddCompanyUserMapperConfiguration
+	FileName:   AddCompanyUserMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AddCompanyUser
+	FileName:   AddCompanyUser
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for add here (if any)
+
+
+
+		Name:   Company
+	FileName:   Company
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Company_SeedData
+	FileName:   Company_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CompanyDto
+	FileName:   CompanyDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyDtoWithId
+	FileName:   CompanyDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyMapperConfiguration
+	FileName:   CompanyMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   FeatureMaster
+	FileName:   FeatureMaster
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   FeatureMaster_SeedData
+	FileName:   FeatureMaster_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   FeatureMasterDto
+	FileName:   FeatureMasterDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   FeatureMasterDtoWithId
+	FileName:   FeatureMasterDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   FeatureMasterMapperConfiguration
+	FileName:   FeatureMasterMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   BaseBranch
+	FileName:   BaseBranch
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   BaseBranch_SeedData
+	FileName:   BaseBranch_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   BaseBranchDto
+	FileName:   BaseBranchDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   BaseBranchDtoWithId
+	FileName:   BaseBranchDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   BaseBranchMapperConfiguration
+	FileName:   BaseBranchMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   Department
+	FileName:   Department
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Department_SeedData
+	FileName:   Department_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DepartmentDto
+	FileName:   DepartmentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentDtoWithId
+	FileName:   DepartmentDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DepartmentMapperConfiguration
+	FileName:   DepartmentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   Designation
+	FileName:   Designation
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   Designation_SeedData
+	FileName:   Designation_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   DesignationDto
+	FileName:   DesignationDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationDtoWithId
+	FileName:   DesignationDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   DesignationMapperConfiguration
+	FileName:   DesignationMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AddCompanyUserDataPacket
+	FileName:   AddCompanyUserDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   AddCompanyUserSequence
+	FileName:   AddCompanyUserSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CheckDuplicateDomainId
+	FileName:   CheckDuplicateDomainId
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   CheckDuplicateEmail
+	FileName:   CheckDuplicateEmail
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   CheckDuplicateMobile
+	FileName:   CheckDuplicateMobile
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessCompanyUsersService_AddCompanyUser
+	FileName:   ProcessCompanyUsersService_AddCompanyUser
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessCompanyUsersService_AddCompanyUser_Cmd
+	FileName:   ProcessCompanyUsersService_AddCompanyUser_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   AddCompanyUserCommand
+	FileName:   AddCompanyUserCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   AddCompanyUserPostBusDataPacket
+	FileName:   AddCompanyUserPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   CompanyUserCreatedEvent
+	FileName:   CompanyUserCreatedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   AddCompanyUserPlugin_PS
+	FileName:   AddCompanyUserPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   AddCompanyUserPlugin
+	FileName:   AddCompanyUserPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   AddCompanyUserPostBusSequence
+	FileName:   AddCompanyUserPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   AddCompanyUserCommandHandler
+	FileName:   AddCompanyUserCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollectHandlers.Default.Nsb
+
+
+		Name:   CompanyUserCreatedEvent
+	FileName:   CompanyUserCreatedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendSMSOnCompanyUserCreated
+	FileName:   SendSMSOnCompanyUserCreated
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendSMSOnCompanyUserCreated
+	FileName:   ISendSMSOnCompanyUserCreated
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   CompanyUserCreatedEvent
+	FileName:   CompanyUserCreatedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendEMailOnCompanyUserCreated
+	FileName:   SendEMailOnCompanyUserCreated
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendEMailOnCompanyUserCreated
+	FileName:   ISendEMailOnCompanyUserCreated
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   SendSMSOnCompanyUserCreatedBusGammaSubscriber
+	FileName:   SendSMSOnCompanyUserCreatedBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   SendEMailOnCompanyUserCreatedBusGammaSubscriber
+	FileName:   SendEMailOnCompanyUserCreatedBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+

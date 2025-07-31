@@ -1,0 +1,16 @@
+﻿{
+  "LicenseKey": "D7C3E4E9-FE5B-414D-9292-4E13EDC4CD9B",
+  "IssuedTo": "ENTiger.ENCollect",
+  "IssuedOn": "2025-05-18T00:00:00Z",
+  "ExpiresOn": "2026-12-31T23:59:59Z",
+  "LicenseCounts": {
+    "Field": 50,
+    "Tele": 50
+  },
+  "FreeLimits": {
+    "Users": 200,
+    "Collections": 10,
+    "Trails": 50
+  },
+  "Signature": "Rflagdr8kbKsAugI4mljjulhq3DwCLaOZoKGnOa1wiM="
+}

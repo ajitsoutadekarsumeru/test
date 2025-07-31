@@ -1,0 +1,20 @@
+﻿using ENTiger.ENCollect.AuditTrailModule;
+using Sumeru.Flex;
+
+namespace ENTiger.ENCollect
+{
+    public class NsbRouteConfig
+    {
+        public static List<BusRouteConfig> GetRoute()
+        {
+            List<BusRouteConfig> routes = new();
+
+            string defaultDestinationEndPoint = "ENTiger.Account.Endpoint";
+            string commonDestinationEndPoint = "ENTiger.Common.Endpoint";
+
+            routes.Add(new BusRouteConfig(typeof(DummyMessage).Assembly, defaultDestinationEndPoint));
+            routes.Add(new BusRouteConfig(typeof(DummyMessage).Assembly, typeof(AddAuditTrailCommand).Namespace, commonDestinationEndPoint));
+            return routes;
+        }
+    }
+}

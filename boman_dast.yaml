@@ -1,0 +1,8 @@
+Auth:
+  project_token: 23ff1d94-ee3b-4afd-859f-2ab74b912a0a
+  customer_token: 312c8fe6-f140-4359-9c0b-324d5f22088d
+
+DAST:
+  type: API
+  URL: https://mtqa.sumeruentiger.com:9117//webapi/swagger/v1/swagger.json
+

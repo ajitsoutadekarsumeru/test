@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LearningBusConfiguration.cs" />
+    <Compile Remove="RabbitMqBusConfiguration.cs" />
+    <Compile Remove="SqlBusConfiguration.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+   
+    <PackageReference Include="Sumeru.Flex.ServiceBus.Nsb" Version="9.2.0-Dev-Build134" />
+    <PackageReference Include="Sumeru.Flex.ServiceBus.Nsb.Azure.Storage" Version="9.2.0-Dev-Build134" />
+    <PackageReference Include="Sumeru.Flex.ServiceBus.Nsb.Learning" Version="9.2.0-Dev-Build134" />
+    <PackageReference Include="Sumeru.Flex.ServiceBus.Nsb.OnPremises.Rabbit" Version="9.2.0-Dev-Build134" />
+	<PackageReference Include="Sumeru.Flex.ServiceBus.Nsb.Amazon.SQS" Version="9.2.0-Dev-Build134" />
+	<PackageReference Include="Sumeru.Flex.ServiceBus.Nsb.Azure.ServiceBus" Version="9.2.0-Dev-Build134" />
+	<PackageReference Include="Sumeru.Flex.ServiceBus.Nsb.SqlTransport" Version="9.2.0-Dev-Build134" />
+	<PackageReference Include="Sumeru.Flex.ServiceBus.Nsb.SqlPersistence" Version="9.2.0-Dev-Build134" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.CoreBridge\ENTiger.ENCollect.CoreBridge.csproj" />
+  </ItemGroup>
+
+  
+</Project>

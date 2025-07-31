@@ -1,0 +1,18 @@
+﻿namespace ENTiger.ENCollect.GeoTagModule
+{
+    /// <summary>
+    ///
+    /// </summary>
+    public partial class ProcessGeoTagService : ProcessFlexServiceBridge
+    {
+        /// <summary>
+        /// YourRemarksForMethod
+        /// </summary>
+        /// <param name="params"></param>
+        /// <returns></returns>
+        public async Task<IEnumerable<GetGeoTagDetailsDto>> GetGeoTagDetails(GetGeoTagDetailsParams @params)
+        {
+            return await _flexHost.GetFlexiQuery<GetGeoTagDetails>().AssignParameters(@params).Fetch();
+        }
+    }
+}

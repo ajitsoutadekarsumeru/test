@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sumeru.Flex.Data.EntityFramework.MySql" Version="9.0.0-Dev-Build134" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ENTiger.ENCollect.BaseEF\ENTiger.ENCollect.BaseEF.csproj" />
+    <ProjectReference Include="..\..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.EFCoreBridge\ENTiger.ENCollect.EFCoreBridge.csproj" />
+  </ItemGroup>
+</Project>

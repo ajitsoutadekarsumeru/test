@@ -1,0 +1,295 @@
+================================================================================================================
+Feature: ApplicationUsers.LoggedInUserDetails
+================================================================================================================
+
+
+		Name:   LoggedInUserDetailsDto
+	FileName:   LoggedInUserDetailsDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   ApplicationUsersController_Constructor
+	FileName:   ApplicationUsersController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ApplicationUsersController_LoggedInUserDetails
+	FileName:   ApplicationUsersController_LoggedInUserDetails
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessApplicationUsersService
+	FileName:   ProcessApplicationUsersService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ApplicationUser
+	FileName:   ApplicationUser
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   ApplicationUser_SeedData
+	FileName:   ApplicationUser_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   ApplicationUserDto
+	FileName:   ApplicationUserDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   ApplicationUserDtoWithId
+	FileName:   ApplicationUserDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   ApplicationUserMapperConfiguration
+	FileName:   ApplicationUserMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   LoggedInUserDetailsMapperConfiguration
+	FileName:   LoggedInUserDetailsMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   CompanyUserPlaceOfWork
+	FileName:   CompanyUserPlaceOfWork
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyUserPlaceOfWork_SeedData
+	FileName:   CompanyUserPlaceOfWork_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CompanyUserPlaceOfWorkDto
+	FileName:   CompanyUserPlaceOfWorkDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyUserPlaceOfWorkDtoWithId
+	FileName:   CompanyUserPlaceOfWorkDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyUserPlaceOfWorkMapperConfiguration
+	FileName:   CompanyUserPlaceOfWorkMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   LoggedInUserDetails
+	FileName:   LoggedInUserDetails
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessApplicationUsersService_LoggedInUserDetails
+	FileName:   ProcessApplicationUsersService_LoggedInUserDetails
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: ApplicationUsers.Login
+================================================================================================================
+
+
+		Name:   LoginDto
+	FileName:   LoginDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   ApplicationUsersController_Constructor
+	FileName:   ApplicationUsersController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ApplicationUsersController_Login
+	FileName:   ApplicationUsersController_Login
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessApplicationUsersService
+	FileName:   ProcessApplicationUsersService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ApplicationUser
+	FileName:   ApplicationUser
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   ApplicationUser_SeedData
+	FileName:   ApplicationUser_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   ApplicationUserDto
+	FileName:   ApplicationUserDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   ApplicationUserDtoWithId
+	FileName:   ApplicationUserDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   ApplicationUserMapperConfiguration
+	FileName:   ApplicationUserMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   LoginMapperConfiguration
+	FileName:   LoginMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   Login
+	FileName:   Login
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for add here (if any)
+
+
+
+		Name:   CompanyUserPlaceOfWork
+	FileName:   CompanyUserPlaceOfWork
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyUserPlaceOfWork_SeedData
+	FileName:   CompanyUserPlaceOfWork_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CompanyUserPlaceOfWorkDto
+	FileName:   CompanyUserPlaceOfWorkDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyUserPlaceOfWorkDtoWithId
+	FileName:   CompanyUserPlaceOfWorkDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CompanyUserPlaceOfWorkMapperConfiguration
+	FileName:   CompanyUserPlaceOfWorkMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   LoginDataPacket
+	FileName:   LoginDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   LoginSequence
+	FileName:   LoginSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ValidateCaptcha
+	FileName:   ValidateCaptcha
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ValidateKey
+	FileName:   ValidateKey
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   Login
+	FileName:   Login
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessApplicationUsersService_Login
+	FileName:   ProcessApplicationUsersService_Login
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessApplicationUsersService_Login_Cmd
+	FileName:   ProcessApplicationUsersService_Login_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   LoginCommand
+	FileName:   LoginCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   LoginPostBusDataPacket
+	FileName:   LoginPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   LoginPlugin
+	FileName:   LoginPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   LoginPostBusSequence
+	FileName:   LoginPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   LoginCommandHandler
+	FileName:   LoginCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollectHandlers.Default.Nsb
+
+

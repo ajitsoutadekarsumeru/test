@@ -1,0 +1,225 @@
+================================================================================================================
+Feature: Accounts.GetRoleBasedSearchConfig
+================================================================================================================
+
+
+		Name:   GetRoleBasedSearchConfigDto
+	FileName:   GetRoleBasedSearchConfigDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_GetRoleBasedSearchConfig
+	FileName:   AccountsController_GetRoleBasedSearchConfig
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   RoleAccountFetchConfig
+	FileName:   RoleAccountFetchConfig
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   RoleAccountFetchConfig_SeedData
+	FileName:   RoleAccountFetchConfig_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   RoleAccountFetchConfigDto
+	FileName:   RoleAccountFetchConfigDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   RoleAccountFetchConfigDtoWithId
+	FileName:   RoleAccountFetchConfigDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   RoleAccountFetchConfigMapperConfiguration
+	FileName:   RoleAccountFetchConfigMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetRoleBasedSearchConfigMapperConfiguration
+	FileName:   GetRoleBasedSearchConfigMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetRoleBasedSearchConfig
+	FileName:   GetRoleBasedSearchConfig
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessAccountsService_GetRoleBasedSearchConfig
+	FileName:   ProcessAccountsService_GetRoleBasedSearchConfig
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Accounts.UpdateRoleBasedSearch
+================================================================================================================
+
+
+		Name:   UpdateRoleBasedSearchDto
+	FileName:   UpdateRoleBasedSearchDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_UpdateRoleBasedSearch
+	FileName:   AccountsController_UpdateRoleBasedSearch
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   RoleAccountFetchConfig
+	FileName:   RoleAccountFetchConfig
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   RoleAccountFetchConfig_SeedData
+	FileName:   RoleAccountFetchConfig_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   RoleAccountFetchConfigDto
+	FileName:   RoleAccountFetchConfigDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   RoleAccountFetchConfigDtoWithId
+	FileName:   RoleAccountFetchConfigDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   RoleAccountFetchConfigMapperConfiguration
+	FileName:   RoleAccountFetchConfigMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   UpdateRoleBasedSearchMapperConfiguration
+	FileName:   UpdateRoleBasedSearchMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   UpdateRoleBasedSearch
+	FileName:   UpdateRoleBasedSearch
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for modify here (if any)
+
+
+
+		Name:   UpdateRoleBasedSearchDataPacket
+	FileName:   UpdateRoleBasedSearchDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateRoleBasedSearchSequence
+	FileName:   UpdateRoleBasedSearchSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   Validate
+	FileName:   Validate
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessAccountsService_UpdateRoleBasedSearch
+	FileName:   ProcessAccountsService_UpdateRoleBasedSearch
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAccountsService_UpdateRoleBasedSearch_Cmd
+	FileName:   ProcessAccountsService_UpdateRoleBasedSearch_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateRoleBasedSearchCommand
+	FileName:   UpdateRoleBasedSearchCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   UpdateRoleBasedSearchPostBusDataPacket
+	FileName:   UpdateRoleBasedSearchPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   RoleBasedSearchUpdated
+	FileName:   RoleBasedSearchUpdated
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateRoleBasedSearchPlugin_PS
+	FileName:   UpdateRoleBasedSearchPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   UpdateRoleBasedSearchPlugin
+	FileName:   UpdateRoleBasedSearchPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   UpdateRoleBasedSearchPostBusSequence
+	FileName:   UpdateRoleBasedSearchPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   UpdateRoleBasedSearchCommandHandler
+	FileName:   UpdateRoleBasedSearchCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+

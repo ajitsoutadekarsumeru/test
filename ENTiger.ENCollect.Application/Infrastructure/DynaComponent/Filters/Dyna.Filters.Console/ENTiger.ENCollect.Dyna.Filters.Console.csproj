@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>DynamicFilters</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\CascadingFlow\Dyna.Cascading\ENTiger.ENCollect.Dyna.Cascading.csproj" />
+      <ProjectReference Include="..\..\Seeds\Dyna.Seed\ENTiger.ENCollect.Dyna.Seed.csproj" />
+      <ProjectReference Include="..\Dyna.Filters\ENTiger.ENCollect.Dyna.Filters.csproj" />
+    </ItemGroup>
+
+</Project>

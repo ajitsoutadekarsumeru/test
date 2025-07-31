@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CliWrap" Version="3.6.6" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="Sumeru.Flex.Core" Version="9.0.0-Dev-Build134" />
+    <PackageReference Include="MySqlConnector" Version="2.3.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ENCollect.Compliance.AuditTrail\ENCollect.Compliance.AuditTrail.csproj" />
+    <ProjectReference Include="..\..\..\ENCollect.Security\ENCollect.Security.csproj" />
+    <ProjectReference Include="..\..\Dto\ENTiger.ENCollect.DTOs\ENTiger.ENCollect.DTOs.csproj" />
+    <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.CommonLib\ENTiger.ENCollect.CommonLib.csproj" />
+    <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.DomainModels\ENTiger.ENCollect.DomainModels.csproj" />
+    <ProjectReference Include="..\..\Dto\ENTiger.ENCollect.Messages\ENTiger.ENCollect.Messages.csproj" />
+    <ProjectReference Include="..\..\Dto\ENTiger.ENCollect.SharedEvents\ENTiger.ENCollect.SharedEvents.csproj" />
+    <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.Mappers\ENTiger.ENCollect.Mappers.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.CoreBridge\ENTiger.ENCollect.CoreBridge.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DynaComponent\CascadingFlow\Dyna.Cascading\ENTiger.ENCollect.Dyna.Cascading.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DynaComponent\Filters\Dyna.Filters\ENTiger.ENCollect.Dyna.Filters.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DynaComponent\Workflows\Dyna.Workflows\ENTiger.ENCollect.Dyna.Workflows.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Utilities\ENTiger.ENCollect.Utilities\ENTiger.ENCollect.Utilities.csproj" />
+    <ProjectReference Include="..\..\Orchestration\ENTiger.ENCollect.RESTClients\ENTiger.ENCollect.RESTClients.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces\ENTiger.ENCollect.SubscriberInterfaces.csproj" />
+  </ItemGroup>
+  
+</Project>

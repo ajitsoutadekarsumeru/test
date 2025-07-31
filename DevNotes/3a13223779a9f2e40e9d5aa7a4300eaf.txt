@@ -1,0 +1,324 @@
+================================================================================================================
+Feature: Geography.GetStatesByRegionId
+================================================================================================================
+
+
+		Name:   GetStatesByRegionIdDto
+	FileName:   GetStatesByRegionIdDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   GeographyController_Constructor
+	FileName:   GeographyController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   GeographyController_GetStatesByRegionId
+	FileName:   GeographyController_GetStatesByRegionId
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessGeographyService
+	FileName:   ProcessGeographyService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   State
+	FileName:   State
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   State_SeedData
+	FileName:   State_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   StateDto
+	FileName:   StateDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   StateDtoWithId
+	FileName:   StateDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   StateMapperConfiguration
+	FileName:   StateMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetStatesByRegionIdMapperConfiguration
+	FileName:   GetStatesByRegionIdMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetStatesByRegionId
+	FileName:   GetStatesByRegionId
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessGeographyService_GetStatesByRegionId
+	FileName:   ProcessGeographyService_GetStatesByRegionId
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Geography.GetStateById
+================================================================================================================
+
+
+		Name:   GetStateByIdDto
+	FileName:   GetStateByIdDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   GeographyController_Constructor
+	FileName:   GeographyController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   GeographyController_GetStateById
+	FileName:   GeographyController_GetStateById
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessGeographyService
+	FileName:   ProcessGeographyService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   State
+	FileName:   State
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   State_SeedData
+	FileName:   State_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   StateDto
+	FileName:   StateDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   StateDtoWithId
+	FileName:   StateDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   StateMapperConfiguration
+	FileName:   StateMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetStateByIdMapperConfiguration
+	FileName:   GetStateByIdMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetStateById
+	FileName:   GetStateById
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessGeographyService_GetStateById
+	FileName:   ProcessGeographyService_GetStateById
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Geography.SearchState
+================================================================================================================
+
+
+		Name:   SearchStateDto
+	FileName:   SearchStateDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   GeographyController_Constructor
+	FileName:   GeographyController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   GeographyController_SearchState
+	FileName:   GeographyController_SearchState
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessGeographyService
+	FileName:   ProcessGeographyService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   State
+	FileName:   State
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   State_SeedData
+	FileName:   State_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   StateDto
+	FileName:   StateDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   StateDtoWithId
+	FileName:   StateDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   StateMapperConfiguration
+	FileName:   StateMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchStateMapperConfiguration
+	FileName:   SearchStateMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchState
+	FileName:   SearchState
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessGeographyService_SearchState
+	FileName:   ProcessGeographyService_SearchState
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Geography.GetStateList
+================================================================================================================
+
+
+		Name:   GetStateListDto
+	FileName:   GetStateListDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   GeographyController_Constructor
+	FileName:   GeographyController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   GeographyController_GetStateList
+	FileName:   GeographyController_GetStateList
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessGeographyService
+	FileName:   ProcessGeographyService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   State
+	FileName:   State
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   State_SeedData
+	FileName:   State_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   StateDto
+	FileName:   StateDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   StateDtoWithId
+	FileName:   StateDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   StateMapperConfiguration
+	FileName:   StateMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetStateListMapperConfiguration
+	FileName:   GetStateListMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetStateList
+	FileName:   GetStateList
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessGeographyService_GetStateList
+	FileName:   ProcessGeographyService_GetStateList
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+

@@ -1,0 +1,81 @@
+================================================================================================================
+Feature: Allocation.AgencyAllocationFileUploadStatus
+================================================================================================================
+
+
+		Name:   AgencyAllocationFileUploadStatusDto
+	FileName:   AgencyAllocationFileUploadStatusDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   AllocationController_Constructor
+	FileName:   AllocationController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AllocationController_AgencyAllocationFileUploadStatus
+	FileName:   AllocationController_AgencyAllocationFileUploadStatus
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAllocationService
+	FileName:   ProcessAllocationService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   PrimaryAllocationFile
+	FileName:   PrimaryAllocationFile
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   PrimaryAllocationFile_SeedData
+	FileName:   PrimaryAllocationFile_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   PrimaryAllocationFileDto
+	FileName:   PrimaryAllocationFileDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   PrimaryAllocationFileDtoWithId
+	FileName:   PrimaryAllocationFileDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   PrimaryAllocationFileMapperConfiguration
+	FileName:   PrimaryAllocationFileMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AgencyAllocationFileUploadStatusMapperConfiguration
+	FileName:   AgencyAllocationFileUploadStatusMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   AgencyAllocationFileUploadStatus
+	FileName:   AgencyAllocationFileUploadStatus
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessAllocationService_AgencyAllocationFileUploadStatus
+	FileName:   ProcessAllocationService_AgencyAllocationFileUploadStatus
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+

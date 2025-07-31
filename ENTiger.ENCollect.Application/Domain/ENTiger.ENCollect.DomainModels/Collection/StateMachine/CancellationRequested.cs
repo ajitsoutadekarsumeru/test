@@ -1,0 +1,60 @@
+﻿using Microsoft.Extensions.DependencyInjection;
+using Sumeru.Flex;
+
+namespace ENTiger.ENCollect
+{
+    public class CancellationRequested : CollectionWorkflowState
+    {
+        private IFlexHost _flexHost;
+
+        public CancellationRequested()
+        {
+            _flexHost = FlexContainer.ServiceProvider.GetRequiredService<IFlexHost>();
+            Name = this.GetType().Name;
+            this.SetAdded();
+        }
+
+        #region State
+
+        public override CollectionWorkflowState InitiateCollection() => this;
+
+        public override CollectionWorkflowState ReceiveCollection() => this;
+
+        public override CollectionWorkflowState AcknowledgeCollection()
+        {
+            return _flexHost.GetFlexStateInstance<CollectionAcknowledged>();
+        }
+
+        public override CollectionWorkflowState AddCollectionInBatch() => this;
+
+        public override CollectionWorkflowState MakeReadyForBatch() => this;
+
+        public override CollectionWorkflowState RequestCancellation() => this;
+
+        public override CollectionWorkflowState Cancel()
+        {
+            return _flexHost.GetFlexStateInstance<Cancelled>();
+        }
+
+        public override CollectionWorkflowState Reject()
+        {
+            return _flexHost.GetFlexStateInstance<CancellationRejected>();
+        }
+
+        public override CollectionWorkflowState MarkCollectionAsFail() => this;
+
+        public override CollectionWorkflowState MarkAsBouncedInCBS() => this;
+
+        public override CollectionWorkflowState MarkAsUpdatedInCBS() => this;
+
+        public override CollectionWorkflowState MarkAsErrorInCBS() => this;
+
+        public override CollectionWorkflowState MarkAsPendingPostingInCBS() => this;
+
+        public override CollectionWorkflowState MarkCollectionAsSuccess() => this;
+
+        public override CollectionWorkflowState AddCollectionInPartnerBatch() => this;
+
+        #endregion State
+    }
+}

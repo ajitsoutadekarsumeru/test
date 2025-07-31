@@ -1,0 +1,118 @@
+================================================================================================================
+Feature: Accounts.UpdateCustomerConsentExpiry
+================================================================================================================
+
+
+		Name:   UpdateCustomerConsentExpiryDto
+	FileName:   UpdateCustomerConsentExpiryDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   UpdateCustomerConsentExpiryCronJob
+	FileName:   UpdateCustomerConsentExpiryCronJob
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.CronJobs
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CustomerConsent
+	FileName:   CustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsent_SeedData
+	FileName:   CustomerConsent_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CustomerConsentDto
+	FileName:   CustomerConsentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentDtoWithId
+	FileName:   CustomerConsentDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentMapperConfiguration
+	FileName:   CustomerConsentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   UpdateCustomerConsentExpiryMapperConfiguration
+	FileName:   UpdateCustomerConsentExpiryMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   UpdateCustomerConsentExpiry
+	FileName:   UpdateCustomerConsentExpiry
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for add here (if any)
+
+
+
+		Name:   UpdateCustomerConsentExpiryDataPacket
+	FileName:   UpdateCustomerConsentExpiryDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateCustomerConsentExpirySequence
+	FileName:   UpdateCustomerConsentExpirySequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAccountsService_UpdateCustomerConsentExpiry
+	FileName:   ProcessAccountsService_UpdateCustomerConsentExpiry
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAccountsService_UpdateCustomerConsentExpiry_Cmd
+	FileName:   ProcessAccountsService_UpdateCustomerConsentExpiry_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   UpdateCustomerConsentExpiryCommand
+	FileName:   UpdateCustomerConsentExpiryCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   UpdateCustomerConsentExpiryPostBusDataPacket
+	FileName:   UpdateCustomerConsentExpiryPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   UpdateCustomerConsentExpiryPlugin
+	FileName:   UpdateCustomerConsentExpiryPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   UpdateCustomerConsentExpiryPostBusSequence
+	FileName:   UpdateCustomerConsentExpiryPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   UpdateCustomerConsentExpiryCommandHandler
+	FileName:   UpdateCustomerConsentExpiryCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+

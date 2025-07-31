@@ -1,0 +1,88 @@
+================================================================================================================
+Feature: Collections.GetCollectionFile
+================================================================================================================
+
+
+		Name:   GetCollectionFileDto
+	FileName:   GetCollectionFileDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   CollectionsController_Constructor
+	FileName:   CollectionsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   CollectionsController_GetCollectionFile
+	FileName:   CollectionsController_GetCollectionFile
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessCollectionsService
+	FileName:   ProcessCollectionsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   GetCollectionFileDataPacket
+	FileName:   GetCollectionFileDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   GetCollectionFileSequence
+	FileName:   GetCollectionFileSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CheckFileAccess
+	FileName:   CheckFileAccess
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ValidateFile
+	FileName:   ValidateFile
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessCollectionsService_GetCollectionFile
+	FileName:   ProcessCollectionsService_GetCollectionFile
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessCollectionsService_GetCollectionFile_Cmd
+	FileName:   ProcessCollectionsService_GetCollectionFile_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   GetCollectionFileCommand
+	FileName:   GetCollectionFileCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   GetCollectionFilePostBusDataPacket
+	FileName:   GetCollectionFilePostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   GetCollectionFilePlugin
+	FileName:   GetCollectionFilePlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   GetCollectionFilePostBusSequence
+	FileName:   GetCollectionFilePostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   GetCollectionFileCommandHandler
+	FileName:   GetCollectionFileCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+

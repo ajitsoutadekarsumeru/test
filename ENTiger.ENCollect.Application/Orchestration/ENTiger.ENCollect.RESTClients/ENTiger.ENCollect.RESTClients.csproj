@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sumeru.Flex.Core" Version="9.0.0-Dev-Build134" />
+		<PackageReference Include="Sumeru.Flex.RestClient" Version="9.0.0-Dev-Build134" />
+		
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.CoreBridge\ENTiger.ENCollect.CoreBridge.csproj" />
+	  <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.CommonLib\ENTiger.ENCollect.CommonLib.csproj" />
+	  <ProjectReference Include="..\..\Dto\ENTiger.ENCollect.Messages\ENTiger.ENCollect.Messages.csproj" />
+	  <ProjectReference Include="..\..\Dto\ENTiger.ENCollect.DTOs\ENTiger.ENCollect.DTOs.csproj" />
+	</ItemGroup>
+	
+ 
+
+</Project>

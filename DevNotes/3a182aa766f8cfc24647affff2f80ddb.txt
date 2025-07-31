@@ -1,0 +1,256 @@
+================================================================================================================
+Feature: Collections.CollectionBulkUpload
+================================================================================================================
+
+
+		Name:   CollectionBulkUploadDto
+	FileName:   CollectionBulkUploadDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   CollectionsController_Constructor
+	FileName:   CollectionsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   CollectionsController_CollectionBulkUpload
+	FileName:   CollectionsController_CollectionBulkUpload
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessCollectionsService
+	FileName:   ProcessCollectionsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CollectionUploadFile
+	FileName:   CollectionUploadFile
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CollectionUploadFile_SeedData
+	FileName:   CollectionUploadFile_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CollectionUploadFileDto
+	FileName:   CollectionUploadFileDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CollectionUploadFileDtoWithId
+	FileName:   CollectionUploadFileDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CollectionUploadFileMapperConfiguration
+	FileName:   CollectionUploadFileMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   CollectionBulkUploadMapperConfiguration
+	FileName:   CollectionBulkUploadMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   CollectionBulkUpload
+	FileName:   CollectionBulkUpload
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for add here (if any)
+
+
+
+		Name:   CollectionBulkUploadDataPacket
+	FileName:   CollectionBulkUploadDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CollectionBulkUploadSequence
+	FileName:   CollectionBulkUploadSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ValidateBulkUpload
+	FileName:   ValidateBulkUpload
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessCollectionsService_CollectionBulkUpload
+	FileName:   ProcessCollectionsService_CollectionBulkUpload
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessCollectionsService_CollectionBulkUpload_Cmd
+	FileName:   ProcessCollectionsService_CollectionBulkUpload_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CollectionBulkUploadCommand
+	FileName:   CollectionBulkUploadCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   CollectionBulkUploadPostBusDataPacket
+	FileName:   CollectionBulkUploadPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   CollectionBulkUploadedEvent
+	FileName:   CollectionBulkUploadedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   CollectionBulkUploadPlugin_PS
+	FileName:   CollectionBulkUploadPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   CollectionBulkUploadPlugin
+	FileName:   CollectionBulkUploadPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   CollectionBulkUploadPostBusSequence
+	FileName:   CollectionBulkUploadPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   CollectionBulkUploadCommandHandler
+	FileName:   CollectionBulkUploadCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+
+		Name:   CollectionBulkUploadedEvent
+	FileName:   CollectionBulkUploadedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   ProcessCollectionBulkUploaded
+	FileName:   ProcessCollectionBulkUploaded
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   IProcessCollectionBulkUploaded
+	FileName:   IProcessCollectionBulkUploaded
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   CollectionBulkUploadProcessedEvent
+	FileName:   CollectionBulkUploadProcessedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   ProcessCollectionBulkUploaded
+	FileName:   ProcessCollectionBulkUploaded
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   CollectionBulkUploadFailedEvent
+	FileName:   CollectionBulkUploadFailedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   ProcessCollectionBulkUploaded
+	FileName:   ProcessCollectionBulkUploaded
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   CollectionBulkUploadProcessedEvent
+	FileName:   CollectionBulkUploadProcessedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendEmailForCollectionBulkUploadProcessed
+	FileName:   SendEmailForCollectionBulkUploadProcessed
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendEmailForCollectionBulkUploadProcessed
+	FileName:   ISendEmailForCollectionBulkUploadProcessed
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   CollectionBulkUploadFailedEvent
+	FileName:   CollectionBulkUploadFailedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendEmailForCollectionBulkUploadFailed
+	FileName:   SendEmailForCollectionBulkUploadFailed
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendEmailForCollectionBulkUploadFailed
+	FileName:   ISendEmailForCollectionBulkUploadFailed
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   CollectionBulkUploadedEvent
+	FileName:   CollectionBulkUploadedEvent
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendEmailForCollectionBulkUploaded
+	FileName:   SendEmailForCollectionBulkUploaded
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendEmailForCollectionBulkUploaded
+	FileName:   ISendEmailForCollectionBulkUploaded
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   ProcessCollectionBulkUploadedBusGammaSubscriber
+	FileName:   ProcessCollectionBulkUploadedBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   SendEmailForCollectionBulkUploadProcessedBusGammaSubscriber
+	FileName:   SendEmailForCollectionBulkUploadProcessedBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   SendEmailForCollectionBulkUploadFailedBusGammaSubscriber
+	FileName:   SendEmailForCollectionBulkUploadFailedBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   SendEmailForCollectionBulkUploadedBusGammaSubscriber
+	FileName:   SendEmailForCollectionBulkUploadedBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+

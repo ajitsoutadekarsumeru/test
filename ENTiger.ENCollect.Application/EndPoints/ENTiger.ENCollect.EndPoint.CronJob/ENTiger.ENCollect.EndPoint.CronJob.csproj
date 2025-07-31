@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <UserSecretsId>ENTiger.ENCollect.EndPoint.CronJob-7CB84FB0-E43A-40F8-933D-45D36C0236AE</UserSecretsId>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sumeru.Flex.Hosting.DotnetCore" Version="9.0.0-Dev-Build134" />
+	</ItemGroup>
+ 
+  <ItemGroup>
+    <Content Update="appsettings.EndPoint.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="License.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="sumeru.flexbase.licenses">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Dto\ENTiger.ENCollect.DTOs\ENTiger.ENCollect.DTOs.csproj" />
+    <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.CommonLib\ENTiger.ENCollect.CommonLib.csproj" />
+    <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.DomainModels\ENTiger.ENCollect.DomainModels.csproj" />
+    <ProjectReference Include="..\..\Dto\ENTiger.ENCollect.Messages\ENTiger.ENCollect.Messages.csproj" />
+    <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.Mappers\ENTiger.ENCollect.Mappers.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF\ENTiger.ENCollect.BaseEF.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF.SqlServer\ENTiger.ENCollect.BaseEF.SqlServer.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF.MySql\ENTiger.ENCollect.BaseEF.MySql.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF.PostgreSql\ENTiger.ENCollect.BaseEF.PostgreSql.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.CoreBridge\ENTiger.ENCollect.CoreBridge.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Bus\ENTiger.ENCollect.Nsb\ENTiger.ENCollect.Nsb.csproj" />
+    <ProjectReference Include="..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.AspNetCoreBridge\ENTiger.ENCollect.AspNetCoreBridge.csproj" />
+    <ProjectReference Include="..\..\Orchestration\ENTiger.ENCollect.Extensions\ENTiger.ENCollect.Extensions.csproj" />
+    <ProjectReference Include="..\ENTiger.ENCollect.EndPoint.CommonConfigs\ENTiger.ENCollect.EndPoint.CommonConfigs.csproj" />
+    <ProjectReference Include="..\..\Orchestration\ENTiger.ENCollect.CronJobs\ENTiger.ENCollect.CronJobs.csproj" />
+  </ItemGroup>
+
+	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+		<PropertyGroup>
+			<IsWindows>$([System.String]::Equals('$(OS)', 'Windows_NT'))</IsWindows>
+			<IsUnix>$([System.String]::Equals('$(OS)', 'Unix'))</IsUnix>
+		</PropertyGroup>
+
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application\EndPoints\ENTiger.ENCollect.EndPoint.CommonConfigs\AppSettings\appsettings.Common.Development.json $(ProjectDir)appsettings.Development.json" Condition="'$(IsWindows)' == 'True'" />
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application\EndPoints\ENTiger.ENCollect.EndPoint.CommonConfigs\AppSettings\appsettings.Common.Production.json $(ProjectDir)appsettings.Production.json" Condition="'$(IsWindows)' == 'True'" />
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application\EndPoints\ENTiger.ENCollect.EndPoint.CommonConfigs\AppSettings\appsettings.Common.Staging.json $(ProjectDir)appsettings.Staging.json" Condition="'$(IsWindows)' == 'True'" />
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application\EndPoints\ENTiger.ENCollect.EndPoint.CommonConfigs\Licenses\License.xml $(ProjectDir)License.xml" Condition="'$(IsWindows)' == 'True'" />
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application\EndPoints\ENTiger.ENCollect.EndPoint.CommonConfigs\Licenses\sumeru.flexbase.licenses $(ProjectDir)sumeru.flexbase.licenses" Condition="'$(IsWindows)' == 'True'" />
+    <Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application\EndPoints\ENTiger.ENCollect.EndPoint.CommonConfigs\Licenses\license.json $(ProjectDir)license.json" Condition="'$(IsWindows)' == 'True'" />
+    
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application/EndPoints/ENTiger.ENCollect.EndPoint.CommonConfigs/AppSettings/appsettings.Common.Development.json $(ProjectDir)appsettings.Development.json" Condition="'$(IsUnix)' == 'True'" />
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application/EndPoints/ENTiger.ENCollect.EndPoint.CommonConfigs/AppSettings/appsettings.Common.Production.json $(ProjectDir)appsettings.Production.json" Condition="'$(IsUnix)' == 'True'" />
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application/EndPoints/ENTiger.ENCollect.EndPoint.CommonConfigs/AppSettings/appsettings.Common.Staging.json $(ProjectDir)appsettings.Staging.json" Condition="'$(IsUnix)' == 'True'" />
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application/EndPoints/ENTiger.ENCollect.EndPoint.CommonConfigs/Licenses/License.xml $(ProjectDir)License.xml" Condition="'$(IsUnix)' == 'True'" />
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application/EndPoints/ENTiger.ENCollect.EndPoint.CommonConfigs/Licenses/sumeru.flexbase.licenses $(ProjectDir)sumeru.flexbase.licenses" Condition="'$(IsUnix)' == 'True'" />
+
+	</Target>
+	
+</Project>

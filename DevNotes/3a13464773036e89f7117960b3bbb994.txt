@@ -1,0 +1,116 @@
+================================================================================================================
+Feature: Allocation.SearchPrimaryAllocationbyFilters
+================================================================================================================
+
+
+		Name:   SearchPrimaryAllocationbyFiltersDto
+	FileName:   SearchPrimaryAllocationbyFiltersDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   AllocationController_Constructor
+	FileName:   AllocationController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AllocationController_SearchPrimaryAllocationbyFilters
+	FileName:   AllocationController_SearchPrimaryAllocationbyFilters
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAllocationService
+	FileName:   ProcessAllocationService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   LoanAccount
+	FileName:   LoanAccount
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccount_SeedData
+	FileName:   LoanAccount_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   LoanAccountDto
+	FileName:   LoanAccountDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountDtoWithId
+	FileName:   LoanAccountDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountMapperConfiguration
+	FileName:   LoanAccountMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchPrimaryAllocationbyFiltersMapperConfiguration
+	FileName:   SearchPrimaryAllocationbyFiltersMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   LoanAccountJSON
+	FileName:   LoanAccountJSON
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountJSON_SeedData
+	FileName:   LoanAccountJSON_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   LoanAccountJSONDto
+	FileName:   LoanAccountJSONDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountJSONDtoWithId
+	FileName:   LoanAccountJSONDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   LoanAccountJSONMapperConfiguration
+	FileName:   LoanAccountJSONMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SearchPrimaryAllocationbyFilters
+	FileName:   SearchPrimaryAllocationbyFilters
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessAllocationService_SearchPrimaryAllocationbyFilters
+	FileName:   ProcessAllocationService_SearchPrimaryAllocationbyFilters
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+

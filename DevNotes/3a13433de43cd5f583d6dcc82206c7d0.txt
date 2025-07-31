@@ -1,0 +1,81 @@
+================================================================================================================
+Feature: Allocation.SecondaryAllocationFileUploadStatus
+================================================================================================================
+
+
+		Name:   SecondaryAllocationFileUploadStatusDto
+	FileName:   SecondaryAllocationFileUploadStatusDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   AllocationController_Constructor
+	FileName:   AllocationController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AllocationController_SecondaryAllocationFileUploadStatus
+	FileName:   AllocationController_SecondaryAllocationFileUploadStatus
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAllocationService
+	FileName:   ProcessAllocationService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   SecondaryAllocationFile
+	FileName:   SecondaryAllocationFile
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   SecondaryAllocationFile_SeedData
+	FileName:   SecondaryAllocationFile_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   SecondaryAllocationFileDto
+	FileName:   SecondaryAllocationFileDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   SecondaryAllocationFileDtoWithId
+	FileName:   SecondaryAllocationFileDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   SecondaryAllocationFileMapperConfiguration
+	FileName:   SecondaryAllocationFileMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SecondaryAllocationFileUploadStatusMapperConfiguration
+	FileName:   SecondaryAllocationFileUploadStatusMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   SecondaryAllocationFileUploadStatus
+	FileName:   SecondaryAllocationFileUploadStatus
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessAllocationService_SecondaryAllocationFileUploadStatus
+	FileName:   ProcessAllocationService_SecondaryAllocationFileUploadStatus
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+

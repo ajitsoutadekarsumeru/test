@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CompareNETObjects" Version="4.83.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Sumeru.Flex.Core" Version="9.0.0-Dev-Build134" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels\ENTiger.ENCollect.DomainModels.csproj" />
+      <ProjectReference Include="..\ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs\ENTiger.ENCollect.DTOs.csproj" />
+      <ProjectReference Include="..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.CoreBridge\ENTiger.ENCollect.CoreBridge.csproj" />
+    </ItemGroup>
+
+</Project>

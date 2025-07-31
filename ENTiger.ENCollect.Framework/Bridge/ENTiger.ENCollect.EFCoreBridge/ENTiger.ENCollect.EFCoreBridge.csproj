@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sumeru.Flex.Data.EntityFramework" Version="9.0.0-Dev-Build134" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ENTiger.ENCollect.CoreBridge\ENTiger.ENCollect.CoreBridge.csproj" />
+  </ItemGroup>
+
+</Project>

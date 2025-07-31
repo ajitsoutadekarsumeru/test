@@ -1,0 +1,538 @@
+================================================================================================================
+Feature: Accounts.GetCustomerConsentById
+================================================================================================================
+
+
+		Name:   GetCustomerConsentByIdDto
+	FileName:   GetCustomerConsentByIdDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_GetCustomerConsentById
+	FileName:   AccountsController_GetCustomerConsentById
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CustomerConsent
+	FileName:   CustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsent_SeedData
+	FileName:   CustomerConsent_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CustomerConsentDto
+	FileName:   CustomerConsentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentDtoWithId
+	FileName:   CustomerConsentDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentMapperConfiguration
+	FileName:   CustomerConsentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetCustomerConsentByIdMapperConfiguration
+	FileName:   GetCustomerConsentByIdMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetCustomerConsentById
+	FileName:   GetCustomerConsentById
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessAccountsService_GetCustomerConsentById
+	FileName:   ProcessAccountsService_GetCustomerConsentById
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Accounts.GetCustomerConsentList
+================================================================================================================
+
+
+		Name:   GetCustomerConsentListDto
+	FileName:   GetCustomerConsentListDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your output parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_GetCustomerConsentList
+	FileName:   AccountsController_GetCustomerConsentList
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CustomerConsent
+	FileName:   CustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsent_SeedData
+	FileName:   CustomerConsent_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CustomerConsentDto
+	FileName:   CustomerConsentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentDtoWithId
+	FileName:   CustomerConsentDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentMapperConfiguration
+	FileName:   CustomerConsentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetCustomerConsentListMapperConfiguration
+	FileName:   GetCustomerConsentListMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   GetCustomerConsentList
+	FileName:   GetCustomerConsentList
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Queries
+	DevRemarks(ToDo): Add your query here
+
+
+
+		Name:   ProcessAccountsService_GetCustomerConsentList
+	FileName:   ProcessAccountsService_GetCustomerConsentList
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+================================================================================================================
+Feature: Accounts.CustomerConsentResponse
+================================================================================================================
+
+
+		Name:   CustomerConsentResponseDto
+	FileName:   CustomerConsentResponseDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_CustomerConsentResponse
+	FileName:   AccountsController_CustomerConsentResponse
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CustomerConsent
+	FileName:   CustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsent_SeedData
+	FileName:   CustomerConsent_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CustomerConsentDto
+	FileName:   CustomerConsentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentDtoWithId
+	FileName:   CustomerConsentDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentMapperConfiguration
+	FileName:   CustomerConsentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   CustomerConsentResponseMapperConfiguration
+	FileName:   CustomerConsentResponseMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   CustomerConsentResponse
+	FileName:   CustomerConsentResponse
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for modify here (if any)
+
+
+
+		Name:   CustomerConsentResponseDataPacket
+	FileName:   CustomerConsentResponseDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CustomerConsentResponseSequence
+	FileName:   CustomerConsentResponseSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   IsValid
+	FileName:   IsValid
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessAccountsService_CustomerConsentResponse
+	FileName:   ProcessAccountsService_CustomerConsentResponse
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAccountsService_CustomerConsentResponse_Cmd
+	FileName:   ProcessAccountsService_CustomerConsentResponse_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CustomerConsentResponseCommand
+	FileName:   CustomerConsentResponseCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   CustomerConsentResponsePostBusDataPacket
+	FileName:   CustomerConsentResponsePostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   CustomerConsentUpdated
+	FileName:   CustomerConsentUpdated
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   CustomerConsentResponsePlugin_PS
+	FileName:   CustomerConsentResponsePlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   CustomerConsentResponsePlugin
+	FileName:   CustomerConsentResponsePlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   CustomerConsentResponsePostBusSequence
+	FileName:   CustomerConsentResponsePostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   CustomerConsentResponseCommandHandler
+	FileName:   CustomerConsentResponseCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+
+		Name:   CustomerConsentUpdated
+	FileName:   CustomerConsentUpdated
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateConsentResponseAuditTrail
+	FileName:   UpdateConsentResponseAuditTrail
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   IUpdateConsentResponseAuditTrail
+	FileName:   IUpdateConsentResponseAuditTrail
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   UpdateConsentResponseAuditTrailBusGammaSubscriber
+	FileName:   UpdateConsentResponseAuditTrailBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+================================================================================================================
+Feature: Accounts.RequestCustomerConsent
+================================================================================================================
+
+
+		Name:   RequestCustomerConsentDto
+	FileName:   RequestCustomerConsentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Define your input Dto parameters here
+
+
+
+		Name:   AccountsController_Constructor
+	FileName:   AccountsController_Constructor
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   AccountsController_RequestCustomerConsent
+	FileName:   AccountsController_RequestCustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\Orchestration\ENTiger.ENCollect.WebControllers
+
+
+		Name:   ProcessAccountsService
+	FileName:   ProcessAccountsService
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   CustomerConsent
+	FileName:   CustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsent_SeedData
+	FileName:   CustomerConsent_SeedData
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Configure your seed data here
+
+
+
+		Name:   CustomerConsentDto
+	FileName:   CustomerConsentDto
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentDtoWithId
+	FileName:   CustomerConsentDtoWithId
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.DTOs
+	DevRemarks(ToDo): Add your domain model attributes here
+
+
+
+		Name:   CustomerConsentMapperConfiguration
+	FileName:   CustomerConsentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   RequestCustomerConsentMapperConfiguration
+	FileName:   RequestCustomerConsentMapperConfiguration
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.Mappers
+	DevRemarks(ToDo): create your mappers for the module here
+
+
+
+		Name:   RequestCustomerConsent
+	FileName:   RequestCustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\Domain\ENTiger.ENCollect.DomainModels
+	DevRemarks(ToDo): Customize your domain model logic for add here (if any)
+
+
+
+		Name:   RequestCustomerConsentDataPacket
+	FileName:   RequestCustomerConsentDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   RequestCustomerConsentSequence
+	FileName:   RequestCustomerConsentSequence
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   IsValid
+	FileName:   IsValid
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+	DevRemarks(ToDo): Add your validation logic here
+
+
+
+		Name:   ProcessAccountsService_RequestCustomerConsent
+	FileName:   ProcessAccountsService_RequestCustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   ProcessAccountsService_RequestCustomerConsent_Cmd
+	FileName:   ProcessAccountsService_RequestCustomerConsent_Cmd
+	FolderPath: ENTiger.ENCollect.Application\PreBus\ENTiger.ENCollect.PreBus
+
+
+		Name:   RequestCustomerConsentCommand
+	FileName:   RequestCustomerConsentCommand
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+
+
+		Name:   RequestCustomerConsentPostBusDataPacket
+	FileName:   RequestCustomerConsentPostBusDataPacket
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   CustomerConsentRequested
+	FileName:   CustomerConsentRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   RequestCustomerConsentPlugin_PS
+	FileName:   RequestCustomerConsentPlugin_PS
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Define your event raised logic here
+
+
+
+		Name:   RequestCustomerConsentPlugin
+	FileName:   RequestCustomerConsentPlugin
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+	DevRemarks(ToDo): Add your persistence logic here
+
+
+
+		Name:   RequestCustomerConsentPostBusSequence
+	FileName:   RequestCustomerConsentPostBusSequence
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   RequestCustomerConsentCommandHandler
+	FileName:   RequestCustomerConsentCommandHandler
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Nsb
+
+
+		Name:   CustomerConsentRequested
+	FileName:   CustomerConsentRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   UpdateConsentRequestAuditTrail
+	FileName:   UpdateConsentRequestAuditTrail
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   IUpdateConsentRequestAuditTrail
+	FileName:   IUpdateConsentRequestAuditTrail
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   CustomerConsentRequested
+	FileName:   CustomerConsentRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendSMSForCustomerConsent
+	FileName:   SendSMSForCustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendSMSForCustomerConsent
+	FileName:   ISendSMSForCustomerConsent
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   CustomerConsentRequested
+	FileName:   CustomerConsentRequested
+	FolderPath: ENTiger.ENCollect.Application\Dto\ENTiger.ENCollect.Messages
+	DevRemarks(ToDo): Define your event attribute here
+
+
+
+		Name:   SendEmailForCustomerConsent
+	FileName:   SendEmailForCustomerConsent
+	FolderPath: ENTiger.ENCollect.Application\PostBus\ENTiger.ENCollect.Handlers.Plugins
+
+
+		Name:   ISendEmailForCustomerConsent
+	FileName:   ISendEmailForCustomerConsent
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.SubscriberInterfaces
+
+
+		Name:   UpdateConsentRequestAuditTrailBusGammaSubscriber
+	FileName:   UpdateConsentRequestAuditTrailBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   SendSMSForCustomerConsentBusGammaSubscriber
+	FileName:   SendSMSForCustomerConsentBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+
+		Name:   SendEmailForCustomerConsentBusGammaSubscriber
+	FileName:   SendEmailForCustomerConsentBusGammaSubscriber
+	FolderPath: ENTiger.ENCollect.Framework\PostBus\ENTiger.ENCollect.Handlers.Default.Subscribers.Nsb
+
+

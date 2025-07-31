@@ -1,0 +1,26 @@
+{
+  "ElasticSearchIndexSettings": {
+    "IndexNames": [
+      {
+        "tenantId": "1", // 
+        "PrimaryAllocationInsightIndex": "scb_qa_insight_loanaccount/_search",
+        "SecondaryAllocationInsightIndex": "scb_qa_insight_loanaccount/_search",
+        "TrailGapInsightIndex": "scb_qa_insight_loanaccount/_search",
+        "MoneyMovementInsightIndex": "scb_uat_insight_collectionaccount/_search",
+        "Allocation_AchievedInsightIndex": "scb_qa_insight_loanaccount/_search",
+        "BucketInterval": "100000"
+
+      },
+      {
+        "tenantId": "5",
+        "PrimaryAllocationInsightIndex": "5_scb_qa_insight_loanaccount/_search",
+        "SecondaryAllocationInsightIndex": "5_scb_qa_insight_loanaccount/_search",
+        "TrailGapInsightIndex": "scb_qa_insight_loanaccount/_search",
+        "MoneyMovementInsightIndex": "scb_qa_insight_collectionloanaccount/_search",
+        "Allocation_AchievedInsightIndex": "scb_qa_insight_loanaccount/_search",
+        "BucketInterval": "10000"
+
+      }
+    ]
+  }
+}

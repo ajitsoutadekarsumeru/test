@@ -1,0 +1,9 @@
+Auth:
+  project_token: 23ff1d94-ee3b-4afd-859f-2ab74b912a0a
+  customer_token: 312c8fe6-f140-4359-9c0b-324d5f22088d
+SAST:
+  language: semgrep
+SCA:
+  language: dotnet
+Secret_Scan: true
+SBOM: true

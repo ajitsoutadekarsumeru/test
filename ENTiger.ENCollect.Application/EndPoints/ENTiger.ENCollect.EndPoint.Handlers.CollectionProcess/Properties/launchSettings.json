@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "ENTiger.ENCollect.EndPoint.Handlers.Default": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

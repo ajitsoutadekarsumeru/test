@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="BusGamma\**" />
+	  <EmbeddedResource Remove="BusGamma\**" />
+	  <None Remove="BusGamma\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Program_ConfigureBus.cs" />
+	  <Compile Remove="Program_ConfigureDb.cs" />
+	  <Compile Remove="Program_ConfigureFlexCore.cs" />
+	  <Compile Remove="Program_ConfigureHttpClient.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="AppSettings\license.json" />
+	  <None Remove="Licenses\license.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="AppSettings\license.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Licenses\license.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sumeru.Flex.Hosting.DotnetCore" Version="9.0.0-Dev-Build134" />
+		<PackageReference Include="Sumeru.Flex.Logging.Serilog" Version="9.0.0-Dev-Build134" />
+		<PackageReference Include="Sumeru.Flex.Logging.Serilog.Azure" Version="9.0.0-Dev-Build134" />
+		<PackageReference Include="Sumeru.Flex.RestClient" Version="9.0.0-Dev-Build134" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="AppSettings\appsettings.json">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Licenses\License.xml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Licenses\sumeru.flexbase.licenses">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\ENCollect.Compliance.AuditTrail\ENCollect.Compliance.AuditTrail.csproj" />
+	  <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.Queries\ENTiger.ENCollect.Queries.csproj" />
+	  <ProjectReference Include="..\..\Dto\ENTiger.ENCollect.DTOs\ENTiger.ENCollect.DTOs.csproj" />
+	  <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.CommonLib\ENTiger.ENCollect.CommonLib.csproj" />
+	  <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.DomainModels\ENTiger.ENCollect.DomainModels.csproj" />
+	  <ProjectReference Include="..\..\Dto\ENTiger.ENCollect.Messages\ENTiger.ENCollect.Messages.csproj" />
+	  <ProjectReference Include="..\..\Domain\ENTiger.ENCollect.Mappers\ENTiger.ENCollect.Mappers.csproj" />
+	  <ProjectReference Include="..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF\ENTiger.ENCollect.BaseEF.csproj" />
+	  <ProjectReference Include="..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF.SqlServer\ENTiger.ENCollect.BaseEF.SqlServer.csproj" />
+	  <ProjectReference Include="..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF.MySql\ENTiger.ENCollect.BaseEF.MySql.csproj" />
+	  <ProjectReference Include="..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF.PostgreSql\ENTiger.ENCollect.BaseEF.PostgreSql.csproj" />
+	  <ProjectReference Include="..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.CoreBridge\ENTiger.ENCollect.CoreBridge.csproj" />
+	  <ProjectReference Include="..\..\Infrastructure\Bus\ENTiger.ENCollect.Nsb\ENTiger.ENCollect.Nsb.csproj" />
+	  <ProjectReference Include="..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.AspNetCoreBridge\ENTiger.ENCollect.AspNetCoreBridge.csproj" />
+	  <ProjectReference Include="..\..\Orchestration\ENTiger.ENCollect.RESTClients\ENTiger.ENCollect.RESTClients.csproj" />
+	  <ProjectReference Include="..\..\PostBus\ENTiger.ENCollect.Handlers.Plugins\ENTiger.ENCollect.Handlers.Plugins.csproj" />
+	</ItemGroup>
+
+	
+
+</Project>

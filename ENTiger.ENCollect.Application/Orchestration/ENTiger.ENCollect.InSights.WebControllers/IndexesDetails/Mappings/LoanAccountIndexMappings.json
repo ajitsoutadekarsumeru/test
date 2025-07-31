@@ -1,0 +1,144 @@
+{
+  "scb_qa_insight_loanaccount": {
+    "mappings": {
+      "dynamic": "false",
+      "properties": {
+        "agency_applicationorg_firstname": {
+          "type": "keyword"
+        },
+        "agency_applicationorg_id": {
+          "type": "keyword"
+        },
+        "agreementid_loanacounts": {
+          "type": "keyword"
+        },
+        "allocationowner_applicationuser_firstname": {
+          "type": "keyword"
+        },
+        "allocationowner_applicationuser_id": {
+          "type": "keyword"
+        },
+        "allocationownerid_loanaccounts": {
+          "type": "keyword"
+        },
+        "application_org_discriminator": {
+          "type": "keyword"
+        },
+        "branch_loanaccounts": {
+          "type": "keyword"
+        },
+        "bucket_loanaccounts": {
+          "type": "keyword"
+        },
+        "city_loanaccounts": {
+          "type": "keyword"
+        },
+        "collection_status": {
+          "type": "keyword"
+        },
+        "collector_applicationuser_firstname": {
+          "type": "keyword"
+        },
+        "collector_applicationuser_id": {
+          "type": "keyword"
+        },
+        "current_bucket_loanaccounts": {
+          "type": "keyword"
+        },
+        "entity": {
+          "type": "keyword"
+        },
+        "fbak_accountid": {
+          "type": "keyword"
+        },
+        "fbak_dispositioncode": {
+          "type": "keyword"
+        },
+        "fbak_dispositiongroup": {
+          "type": "keyword"
+        },
+        "fbak_totalfeedbacksthismonth": {
+          "type": "keyword"
+        },
+        "feedback_status": {
+          "type": "keyword"
+        },
+        "feedback_telecaller_firstname": {
+          "type": "keyword"
+        },
+        "feedback_telecaller_id": {
+          "type": "keyword"
+        },
+        "feedback_telecallingagency_firstname": {
+          "type": "keyword"
+        },
+        "feedback_telecallingagency_id": {
+          "type": "keyword"
+        },
+        "feedbackcollector_applicationuser_stafforagent": {
+          "type": "keyword"
+        },
+        "id_loanaccounts": {
+          "type": "keyword"
+        },
+        "lastmodifieddate_loanaccounts": {
+          "type": "keyword"
+        },
+        "loan_bucket": {
+          "type": "keyword"
+        },
+        "month_loanaccounts": {
+          "type": "integer"
+        },
+        "primaryallocationstatus": {
+          "type": "keyword"
+        },
+        "principal_od": {
+          "type": "float"
+        },
+        "product_loanaccounts": {
+          "type": "keyword"
+        },
+        "productgroup_loanaccounts": {
+          "type": "keyword"
+        },
+        "region_loanaccounts": {
+          "type": "keyword"
+        },
+        "secondaryallocationstatus": {
+          "type": "keyword"
+        },
+        "secondaryentity": {
+          "type": "keyword"
+        },
+        "state_loanaccounts": {
+          "type": "keyword"
+        },
+        "subproduct_loanaccounts": {
+          "type": "keyword"
+        },
+        "telecallingagency_applicationorg_firstname": {
+          "type": "keyword"
+        },
+        "telecallingagency_applicationorg_id": {
+          "type": "keyword"
+        },
+        "tellecaller_applicationuser_firstname": {
+          "type": "keyword"
+        },
+        "tellecaller_applicationuser_id": {
+          "type": "keyword"
+        },
+        "total_overdue_amt": {
+          "type": "float"
+        },
+        "year_loanaccounts": {
+          "type": "integer"
+        },
+        "zone_loanaccounts": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}

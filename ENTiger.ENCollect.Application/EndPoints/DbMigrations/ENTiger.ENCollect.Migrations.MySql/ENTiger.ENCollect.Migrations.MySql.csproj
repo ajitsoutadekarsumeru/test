@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GarbageCollectionAdaptationMode>1</GarbageCollectionAdaptationMode>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sumeru.Flex.Data.EntityFramework.MySql.Migrations" Version="9.0.0-Dev-Build134" />
+		<PackageReference Include="Sumeru.Flex.Hosting.DotnetCore" Version="9.0.0-Dev-Build134" />
+		<PackageReference Include="Sumeru.Flex.Logging.Serilog" Version="9.0.0-Dev-Build134" />
+		<PackageReference Include="Sumeru.Flex.Logging.Serilog.Azure" Version="9.0.0-Dev-Build134" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="sumeru.flexbase.licenses">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF\ENTiger.ENCollect.BaseEF.csproj" />
+	  <ProjectReference Include="..\..\..\Infrastructure\Db\ENTiger.ENCollect.BaseEF.MySql\ENTiger.ENCollect.BaseEF.MySql.csproj" />
+	  <ProjectReference Include="..\..\..\..\ENTiger.ENCollect.Framework\Bridge\ENTiger.ENCollect.EFCoreBridge\ENTiger.ENCollect.EFCoreBridge.csproj" />
+	  <ProjectReference Include="..\..\..\Domain\ENTiger.ENCollect.DomainModels\ENTiger.ENCollect.DomainModels.csproj" />
+	</ItemGroup>
+
+	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+		<PropertyGroup>
+			<IsWindows>$([System.String]::Equals('$(OS)', 'Windows_NT'))</IsWindows>
+			<IsUnix>$([System.String]::Equals('$(OS)', 'Unix'))</IsUnix>
+		</PropertyGroup>
+
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application\EndPoints\ENTiger.ENCollect.EndPoint.CommonConfigs\Licenses\sumeru.flexbase.licenses $(ProjectDir)sumeru.flexbase.licenses" Condition="'$(IsWindows)' == 'True'" />
+
+		<Exec Command="copy /y $(SolutionDir)ENTiger.ENCollect.Application/EndPoints/ENTiger.ENCollect.EndPoint.CommonConfigs/Licenses/sumeru.flexbase.licenses $(ProjectDir)sumeru.flexbase.licenses" Condition="'$(IsUnix)' == 'True'" />
+
+	</Target>
+
+</Project>

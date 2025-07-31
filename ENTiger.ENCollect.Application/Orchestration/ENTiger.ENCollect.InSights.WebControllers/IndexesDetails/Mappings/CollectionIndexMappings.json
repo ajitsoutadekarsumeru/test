@@ -1,0 +1,222 @@
+{
+  "scb_qa_insight_collectionloanaccount": {
+    "mappings": {
+      "dynamic": "false",
+      "properties": {
+        "applicationorg_agency_agencyname": {
+          "type": "keyword"
+        },
+        "applicationorg_agency_id": {
+          "type": "keyword"
+        },
+        "applicationorg_customid_agencyid": {
+          "type": "keyword"
+        },
+        "applicationuser_agent_agentname": {
+          "type": "keyword"
+        },
+        "applicationuser_agent_id": {
+          "type": "keyword"
+        },
+        "applicationuser_customid_agentid": {
+          "type": "keyword"
+        },
+        "applicationuser_primaryemail_agentemail": {
+          "type": "keyword"
+        },
+        "applicationuser_stafforagent": {
+          "type": "keyword"
+        },
+        "bankid": {
+          "type": "keyword"
+        },
+        "banktransactionid": {
+          "type": "keyword"
+        },
+        "cardholdername": {
+          "type": "keyword"
+        },
+        "cheques_instrumentdate_instrumentdate": {
+          "type": "keyword"
+        },
+        "cheques_instrumentno_instrumentno": {
+          "type": "keyword"
+        },
+        "cheques_micrcode_micrcode": {
+          "type": "keyword"
+        },
+        "collectionbatches_amount_batchamount": {
+          "type": "float"
+        },
+        "collectionbatches_createddate_batchidcreateddate": {
+          "type": "keyword"
+        },
+        "collectionbatches_customid_batchid": {
+          "type": "keyword"
+        },
+        "collectionpickupcharge": {
+          "type": "keyword"
+        },
+        "collections_amount_amount": {
+          "type": "float"
+        },
+        "collections_amount_bucket": {
+          "type": "keyword"
+        },
+        "collections_amount_instrumentamount": {
+          "type": "float"
+        },
+        "collections_amount_totalreceiptamount": {
+          "type": "float"
+        },
+        "collections_amountbreakup1_amountbreakup1": {
+          "type": "keyword"
+        },
+        "collections_collectiondate_collectiondate": {
+          "type": "date"
+        },
+        "collections_collectionmode_paymentmode": {
+          "type": "keyword"
+        },
+        "collections_collectionorgid": {
+          "type": "keyword"
+        },
+        "collections_customid_receiptno": {
+          "type": "keyword"
+        },
+        "collections_month": {
+          "type": "keyword"
+        },
+        "collections_othercharges_othercharges": {
+          "type": "keyword"
+        },
+        "collections_physicalreceiptnumber_physicalreceiptno": {
+          "type": "keyword"
+        },
+        "collections_ybouncecharges_bouncecharges": {
+          "type": "keyword"
+        },
+        "collections_yforeclosureamount_foreclosureamount": {
+          "type": "keyword"
+        },
+        "collections_yoverdueamount_emiamt": {
+          "type": "keyword"
+        },
+        "collections_ypenalinterest_latepaymentpenalty": {
+          "type": "keyword"
+        },
+        "createddate": {
+          "type": "date"
+        },
+        "daysbucket": {
+          "type": "keyword"
+        },
+        "deposit_month": {
+          "type": "keyword"
+        },
+        "ebccharge": {
+          "type": "keyword"
+        },
+        "excess": {
+          "type": "keyword"
+        },
+        "hold_days": {
+          "type": "keyword"
+        },
+        "imd": {
+          "type": "keyword"
+        },
+        "loan_amount_bucket": {
+          "type": "keyword"
+        },
+        "loanaccounts_agreementid_agreementid": {
+          "type": "keyword"
+        },
+        "loanaccounts_branch_branchname": {
+          "type": "keyword"
+        },
+        "loanaccounts_bucket_bombucket": {
+          "type": "keyword"
+        },
+        "loanaccounts_city_city": {
+          "type": "keyword"
+        },
+        "loanaccounts_current_bucket_currentbucket": {
+          "type": "integer"
+        },
+        "loanaccounts_latestlatitude_lat": {
+          "type": "keyword"
+        },
+        "loanaccounts_latestlongitude_long": {
+          "type": "keyword"
+        },
+        "loanaccounts_primary_card_number_primary_card_number": {
+          "type": "keyword"
+        },
+        "loanaccounts_product": {
+          "type": "keyword"
+        },
+        "loanaccounts_productgroup": {
+          "type": "keyword"
+        },
+        "loanaccounts_region_region": {
+          "type": "keyword"
+        },
+        "loanaccounts_state_state": {
+          "type": "keyword"
+        },
+        "loanaccounts_subproduct": {
+          "type": "keyword"
+        },
+        "merchantid": {
+          "type": "keyword"
+        },
+        "merchantreferencenumber": {
+          "type": "keyword"
+        },
+        "merchanttransactionid": {
+          "type": "keyword"
+        },
+        "payinslips_amount_depositamount": {
+          "type": "float"
+        },
+        "payinslips_bankaccountno_depositaccountnumber": {
+          "type": "keyword"
+        },
+        "payinslips_bankname_depositebankname": {
+          "type": "keyword"
+        },
+        "payinslips_cmspayinslipno_cmspayinslipid": {
+          "type": "keyword"
+        },
+        "payinslips_createddate_depositdate": {
+          "type": "date"
+        },
+        "payinslips_encollectpayinslipid": {
+          "type": "keyword"
+        },
+        "paymentstatus": {
+          "type": "keyword"
+        },
+        "paymenttowards": {
+          "type": "keyword"
+        },
+        "procfee": {
+          "type": "keyword"
+        },
+        "rrn": {
+          "type": "keyword"
+        },
+        "settlementamount": {
+          "type": "keyword"
+        },
+        "statuscode": {
+          "type": "keyword"
+        },
+        "swap": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}

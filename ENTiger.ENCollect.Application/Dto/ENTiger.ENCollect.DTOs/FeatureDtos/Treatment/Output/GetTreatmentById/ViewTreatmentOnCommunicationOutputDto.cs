@@ -1,0 +1,20 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ENTiger.ENCollect
+{
+    public class ViewTreatmentOnCommunicationOutputDto
+    {
+        public string Id { get; set; }
+
+        public string TreatmentId { get; set; }
+
+        [StringLength(30)]
+        public string CommunicationType { get; set; }
+
+        [StringLength(50)]
+        public string CommunicationTemplateId { get; set; }
+
+        [StringLength(200)]
+        public string CommunicationMobileNumberType { get; set; }
+    }
+}

@@ -1,0 +1,17 @@
+﻿CREATE INDEX IX_Collections_LastModifiedDate ON collections (LastModifiedDate);
+CREATE INDEX IX_collectionworkflowstate_Discriminator ON collectionworkflowstate (Discriminator(250));
+CREATE INDEX IX_collectionworkflowstate_name ON collectionworkflowstate (Name);
+CREATE INDEX IX_Collections_collectionworkflowstateid ON collections (collectionworkflowstateid);
+CREATE INDEX IX_feedback_LastModifiedDate ON feedback (LastModifiedDate);
+CREATE INDEX IX_loanaccounts_LastModifiedDate ON loanaccounts (LastModifiedDate);
+CREATE INDEX IX_LoanAccounts_LastUploadedDate ON loanaccounts (LastUploadedDate);
+CREATE INDEX IX_LoanAccounts_LatestAllocationDate ON loanaccounts (LatestAllocationDate);
+ALTER TABLE collections
+  ADD INDEX IX_Collections_CollectionWorkflowstateAndSort (  
+    collectionworkflowstateid, 
+    lastmodifieddate  
+
+  );
+
+CREATE INDEX IX_Collections_AccountAndCreateddate
+  ON collections (accountid, CreatedDate);
